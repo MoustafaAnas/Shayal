@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Almarai-ExtraBold.ttf">
+            <string>Almarai-ExtraBold</string>
+        </array>
+        <array key="Almarai-Regular.ttf">
+            <string>Almarai-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PendingOrdersCell" rowHeight="306" id="KGk-i7-Jjw" customClass="PendingOrdersCell" customModule="Shayal" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="351" height="190"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="351" height="190"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LFf-Ur-9GA">
+                        <rect key="frame" x="20" y="10" width="311" height="170"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="3gI-5X-7m4">
+                                <rect key="frame" x="15" y="15.5" width="36" height="35"/>
+                                <color key="tintColor" red="0.18823529410000001" green="0.83529411760000005" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="1i7-Wd-6oL"/>
+                                    <constraint firstAttribute="width" constant="36" id="nOC-J0-yHp"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="18"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="Lox-yd-mKx">
+                                <rect key="frame" x="62" y="53" width="106" height="87"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Al-madinah" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sdg-xy-4gM">
+                                        <rect key="frame" x="0.0" y="0.0" width="106" height="15"/>
+                                        <fontDescription key="fontDescription" name="Almarai-Regular" family="Almarai" pointSize="13"/>
+                                        <color key="textColor" red="0.1019607843" green="0.76862745099999996" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Light Transport" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TyA-sw-Q6x">
+                                        <rect key="frame" x="0.0" y="24" width="106" height="15"/>
+                                        <fontDescription key="fontDescription" name="Almarai-Regular" family="Almarai" pointSize="13"/>
+                                        <color key="textColor" red="0.1019607843" green="0.76862745099999996" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50 Kg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="czL-GZ-nzO">
+                                        <rect key="frame" x="0.0" y="48" width="106" height="15"/>
+                                        <fontDescription key="fontDescription" name="Almarai-Regular" family="Almarai" pointSize="13"/>
+                                        <color key="textColor" red="0.1019607843" green="0.76862745099999996" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transportation Car" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9zZ-gy-Dn6">
+                                        <rect key="frame" x="0.0" y="72" width="106" height="15"/>
+                                        <fontDescription key="fontDescription" name="Almarai-Regular" family="Almarai" pointSize="13"/>
+                                        <color key="textColor" red="0.1019607843" green="0.76862745099999996" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ahmed Mohamed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ulg-9W-Tdp">
+                                <rect key="frame" x="63" y="26" width="112.5" height="15"/>
+                                <fontDescription key="fontDescription" name="Almarai-ExtraBold" family="Almarai" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="4Oh-BD-0XD">
+                                <rect key="frame" x="173" y="55.5" width="15" height="10"/>
+                                <color key="tintColor" red="0.094117647060000004" green="0.13725490200000001" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="GI3-Gd-RNz"/>
+                                    <constraint firstAttribute="width" constant="15" id="YOe-b6-4Zt"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Al-madinah" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0LK-V7-OzD">
+                                <rect key="frame" x="198" y="53" width="64.5" height="15"/>
+                                <fontDescription key="fontDescription" name="Almarai-Regular" family="Almarai" pointSize="13"/>
+                                <color key="textColor" red="0.1019607843" green="0.76862745099999996" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3gI-5X-7m4" firstAttribute="top" secondItem="LFf-Ur-9GA" secondAttribute="top" constant="15" id="0hS-vj-tLp"/>
+                            <constraint firstItem="4Oh-BD-0XD" firstAttribute="top" secondItem="Ulg-9W-Tdp" secondAttribute="bottom" constant="12" id="338-6f-qTI"/>
+                            <constraint firstItem="0LK-V7-OzD" firstAttribute="leading" secondItem="4Oh-BD-0XD" secondAttribute="trailing" constant="10" id="BKB-Z0-743"/>
+                            <constraint firstItem="3gI-5X-7m4" firstAttribute="leading" secondItem="LFf-Ur-9GA" secondAttribute="leading" constant="15" id="Ea4-ay-bJ8"/>
+                            <constraint firstItem="Lox-yd-mKx" firstAttribute="leading" secondItem="LFf-Ur-9GA" secondAttribute="leading" constant="62" id="IKJ-R8-bqo"/>
+                            <constraint firstItem="4Oh-BD-0XD" firstAttribute="leading" secondItem="Lox-yd-mKx" secondAttribute="trailing" constant="5" id="RNI-bR-oiW"/>
+                            <constraint firstItem="Ulg-9W-Tdp" firstAttribute="top" secondItem="LFf-Ur-9GA" secondAttribute="top" constant="26" id="feU-ku-ddR"/>
+                            <constraint firstItem="0LK-V7-OzD" firstAttribute="top" secondItem="Ulg-9W-Tdp" secondAttribute="bottom" constant="12" id="j8N-9d-Tya"/>
+                            <constraint firstItem="Lox-yd-mKx" firstAttribute="top" secondItem="Ulg-9W-Tdp" secondAttribute="bottom" constant="12" id="rUC-iB-V1S"/>
+                            <constraint firstItem="Ulg-9W-Tdp" firstAttribute="leading" secondItem="3gI-5X-7m4" secondAttribute="trailing" constant="12" id="wVf-Zq-Mbg"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="0.0" height="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="LFf-Ur-9GA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="2PH-lZ-tL0"/>
+                    <constraint firstAttribute="trailing" secondItem="LFf-Ur-9GA" secondAttribute="trailing" constant="20" id="P8w-jB-l6X"/>
+                    <constraint firstAttribute="bottom" secondItem="LFf-Ur-9GA" secondAttribute="bottom" constant="10" id="W9k-Hm-thM"/>
+                    <constraint firstItem="LFf-Ur-9GA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="fp1-SC-3ta"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="deliverOrderTo" destination="0LK-V7-OzD" id="u7p-od-Hki"/>
+                <outlet property="deliveryGuyName" destination="Ulg-9W-Tdp" id="2u5-hv-XpT"/>
+                <outlet property="deliveryPhoto" destination="3gI-5X-7m4" id="gbh-gV-ED2"/>
+                <outlet property="directionArrowImg" destination="4Oh-BD-0XD" id="ZaB-aV-z4y"/>
+                <outlet property="getOrderFrom" destination="sdg-xy-4gM" id="kod-1X-Kn5"/>
+                <outlet property="packageType" destination="TyA-sw-Q6x" id="zuk-iZ-7XP"/>
+                <outlet property="packageWeight" destination="czL-GZ-nzO" id="Dyc-fj-Tz6"/>
+                <outlet property="vehicleType" destination="9zZ-gy-Dn6" id="suM-Pa-rcg"/>
+            </connections>
+            <point key="canvasLocation" x="160.1449275362319" y="142.63392857142856"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrow.right" catalog="system" width="128" height="98"/>
+        <image name="person.circle" catalog="system" width="128" height="121"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

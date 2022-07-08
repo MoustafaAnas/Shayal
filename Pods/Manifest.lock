@@ -1,0 +1,80 @@
+PODS:
+  - Alamofire (4.9.1)
+  - ANActivityIndicator (1.2.0)
+  - AnimatableReload (0.1.0)
+  - Cosmos (23.0.0)
+  - FSPagerView (0.8.3)
+  - FTIndicator (1.2.9):
+    - FTIndicator/FTNotificationIndicator (= 1.2.9)
+    - FTIndicator/FTProgressIndicator (= 1.2.9)
+    - FTIndicator/FTToastIndicator (= 1.2.9)
+  - FTIndicator/FTNotificationIndicator (1.2.9)
+  - FTIndicator/FTProgressIndicator (1.2.9)
+  - FTIndicator/FTToastIndicator (1.2.9)
+  - Gallery (2.2.2)
+  - InputBarAccessoryView (4.3.3):
+    - InputBarAccessoryView/Core (= 4.3.3)
+  - InputBarAccessoryView/Core (4.3.3)
+  - IQKeyboardManagerSwift (6.5.10)
+  - Kingfisher (4.10.1)
+  - lottie-ios (3.2.3)
+  - MessageKit (3.1.1):
+    - InputBarAccessoryView (~> 4.3.0)
+  - PusherSwift (8.0.0):
+    - ReachabilitySwift (~> 5.0)
+    - Starscream (~> 3.1)
+  - ReachabilitySwift (5.0.0)
+  - Starscream (3.1.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - ANActivityIndicator
+  - AnimatableReload
+  - Cosmos
+  - FSPagerView
+  - FTIndicator
+  - Gallery
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - lottie-ios
+  - MessageKit
+  - PusherSwift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ANActivityIndicator
+    - AnimatableReload
+    - Cosmos
+    - FSPagerView
+    - FTIndicator
+    - Gallery
+    - InputBarAccessoryView
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - lottie-ios
+    - MessageKit
+    - PusherSwift
+    - ReachabilitySwift
+    - Starscream
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  ANActivityIndicator: 44a996931d0c554cf157b31056603b23bbdbe76a
+  AnimatableReload: dcef76a16258b82bf845225012aa8f3b1aa7df6c
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
+  FTIndicator: f7f071fd159e5befa1d040a9ef2e3ab53fa9322c
+  Gallery: 634ea7d58b93fcb8e787a846febac73ec354e7d9
+  InputBarAccessoryView: 8e7fc09e9cba75e0fee5da13450e15c194806f69
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
+  MessageKit: a3e612a54a24f5d9ca0295760749b481afd3f2da
+  PusherSwift: 8f18b7beaf383e0475607ab6a3f89f477637fb21
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+
+PODFILE CHECKSUM: f8c689fe3e9d1cfcbafe110e8ee33ecb6fef3ec5
+
+COCOAPODS: 1.11.2

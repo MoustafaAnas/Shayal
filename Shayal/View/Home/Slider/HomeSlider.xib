@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Almarai-ExtraBold.ttf">
+            <string>Almarai-ExtraBold</string>
+        </array>
+        <array key="Almarai-Regular.ttf">
+            <string>Almarai-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeSlider" id="gTV-IL-0wX" customClass="HomeSlider" customModule="Shayal" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="150"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="350" height="150"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S8a-5L-iw6">
+                        <rect key="frame" x="0.0" y="0.0" width="350" height="150"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Offers?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VGr-JE-ACJ">
+                                <rect key="frame" x="20" y="20" width="180" height="20.5"/>
+                                <fontDescription key="fontDescription" name="Almarai-ExtraBold" family="Almarai" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sliderImg" translatesAutoresizingMaskIntoConstraints="NO" id="oUD-jx-PAc">
+                                <rect key="frame" x="220" y="10" width="120" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="7Xa-aa-e2M"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5h1-4U-rPh">
+                                <rect key="frame" x="10" y="55.5" width="195" height="49.5"/>
+                                <string key="text">Example text Example text Example text Example text Example text Example text Example text Example text Example text Example text</string>
+                                <fontDescription key="fontDescription" name="Almarai-Regular" family="Almarai" pointSize="11"/>
+                                <color key="textColor" red="0.80784313725490198" green="0.80784313725490198" blue="0.80784313725490198" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="oUD-jx-PAc" firstAttribute="leading" secondItem="5h1-4U-rPh" secondAttribute="trailing" constant="15" id="1AJ-Ax-mvq"/>
+                            <constraint firstItem="VGr-JE-ACJ" firstAttribute="leading" secondItem="S8a-5L-iw6" secondAttribute="leading" constant="20" id="AXt-vq-sNV"/>
+                            <constraint firstItem="5h1-4U-rPh" firstAttribute="top" secondItem="VGr-JE-ACJ" secondAttribute="bottom" constant="15" id="JDv-qo-bmG"/>
+                            <constraint firstItem="oUD-jx-PAc" firstAttribute="leading" secondItem="VGr-JE-ACJ" secondAttribute="trailing" constant="20" id="NtQ-ZN-D6b"/>
+                            <constraint firstItem="oUD-jx-PAc" firstAttribute="top" secondItem="S8a-5L-iw6" secondAttribute="top" constant="10" id="Q38-J9-ZTn"/>
+                            <constraint firstItem="VGr-JE-ACJ" firstAttribute="top" secondItem="S8a-5L-iw6" secondAttribute="top" constant="20" id="YkI-FC-tHv"/>
+                            <constraint firstAttribute="trailing" secondItem="oUD-jx-PAc" secondAttribute="trailing" constant="10" id="deN-Vx-0vR"/>
+                            <constraint firstItem="5h1-4U-rPh" firstAttribute="leading" secondItem="S8a-5L-iw6" secondAttribute="leading" constant="10" id="ja2-ex-6d1"/>
+                            <constraint firstAttribute="bottom" secondItem="oUD-jx-PAc" secondAttribute="bottom" constant="10" id="r84-iP-Ies"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="S8a-5L-iw6" secondAttribute="bottom" id="29f-ok-d5q"/>
+                <constraint firstItem="S8a-5L-iw6" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="TW8-YP-z8y"/>
+                <constraint firstItem="S8a-5L-iw6" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="czk-C5-hjT"/>
+                <constraint firstAttribute="trailing" secondItem="S8a-5L-iw6" secondAttribute="trailing" id="znF-vL-H43"/>
+            </constraints>
+            <size key="customSize" width="480" height="162"/>
+            <connections>
+                <outlet property="sliderContainerView" destination="S8a-5L-iw6" id="095-9m-9jV"/>
+                <outlet property="sliderContentLbl" destination="5h1-4U-rPh" id="ca6-tp-eWd"/>
+                <outlet property="sliderImg" destination="oUD-jx-PAc" id="JOe-C2-Wmi"/>
+                <outlet property="sliderTitleLbl" destination="VGr-JE-ACJ" id="t6h-nS-bvF"/>
+            </connections>
+            <point key="canvasLocation" x="166.66666666666669" y="44.866071428571423"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="sliderImg" width="65" height="131"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

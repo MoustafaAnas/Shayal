@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Almarai-ExtraBold.ttf">
+            <string>Almarai-ExtraBold</string>
+        </array>
+        <array key="Almarai-Regular.ttf">
+            <string>Almarai-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeVC" customModule="Shayal" customModuleProvider="target">
+            <connections>
+                <outlet property="addOrderBtn" destination="XIP-4J-XLl" id="wdp-xj-SaT"/>
+                <outlet property="claryfingTxtLbl" destination="9aB-Tt-AOi" id="fmS-Tr-rux"/>
+                <outlet property="homeSlider" destination="Bkl-eS-nwh" id="GOw-QS-92G"/>
+                <outlet property="mapView" destination="aRL-oB-Jjt" id="ydE-Eu-fcB"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="welcomeToAppLbl" destination="coC-oH-jL1" id="9SK-Pi-DR7"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qwA-iS-7fe">
+                    <rect key="frame" x="0.0" y="44" width="414" height="200"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Ucz-Px-zBj">
+                            <rect key="frame" x="20" y="30" width="281" height="51"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome To Shayal App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="coC-oH-jL1">
+                                    <rect key="frame" x="0.0" y="0.0" width="281" height="22.5"/>
+                                    <fontDescription key="fontDescription" name="Almarai-ExtraBold" family="Almarai" pointSize="20"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What do you want to order? Shayal with you all the time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9aB-Tt-AOi">
+                                    <rect key="frame" x="0.0" y="37.5" width="281" height="13.5"/>
+                                    <fontDescription key="fontDescription" name="Almarai-Regular" family="Almarai" pointSize="12"/>
+                                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XZF-ft-fVY">
+                            <rect key="frame" x="364" y="30" width="30" height="31"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="31" id="Q7M-n7-E3T"/>
+                                <constraint firstAttribute="width" constant="30" id="iTi-y7-TFh"/>
+                            </constraints>
+                            <color key="tintColor" red="0.10196078431372549" green="0.76862745098039209" blue="0.71372549019607845" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="bell.fill" catalog="system">
+                                <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" weight="heavy"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="notificationsBtnPressed:" destination="-1" eventType="touchUpInside" id="657-ea-lui"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.094117647058823528" green="0.13725490196078433" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="XZF-ft-fVY" firstAttribute="top" secondItem="qwA-iS-7fe" secondAttribute="top" constant="30" id="6QF-fa-q2a"/>
+                        <constraint firstAttribute="height" constant="200" id="Iqv-fC-GcI"/>
+                        <constraint firstItem="Ucz-Px-zBj" firstAttribute="top" secondItem="qwA-iS-7fe" secondAttribute="top" constant="30" id="QEL-gJ-rH3"/>
+                        <constraint firstItem="Ucz-Px-zBj" firstAttribute="leading" secondItem="qwA-iS-7fe" secondAttribute="leading" constant="20" id="YwX-Ss-cbB"/>
+                        <constraint firstAttribute="trailing" secondItem="XZF-ft-fVY" secondAttribute="trailing" constant="20" id="k1Q-Bg-kQo"/>
+                    </constraints>
+                </view>
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" mapType="mutedStandard" zoomEnabled="NO" scrollEnabled="NO" rotateEnabled="NO" pitchEnabled="NO" showsUserLocation="YES" showsBuildings="NO" showsCompass="NO" showsPointsOfInterest="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aRL-oB-Jjt">
+                    <rect key="frame" x="0.0" y="244" width="414" height="618"/>
+                </mapView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bkl-eS-nwh" customClass="FSPagerView" customModule="FSPagerView">
+                    <rect key="frame" x="0.0" y="169" width="414" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="unC-9s-BzB"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="automaticSlidingInterval">
+                            <real key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isInfinite" value="NO"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isScrollEnabled" value="YES"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="bounces" value="NO"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="alwaysBounceHorizontal" value="NO"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="alwaysBounceVertical" value="NO"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="removesInfiniteLoopForSingleItem" value="YES"/>
+                        <userDefinedRuntimeAttribute type="size" keyPath="itemSize">
+                            <size key="value" width="340" height="150"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="interitemSpacing">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="decelerationDistance">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XIP-4J-XLl">
+                    <rect key="frame" x="334" y="772" width="60" height="60"/>
+                    <color key="backgroundColor" red="0.1019607843" green="0.76862745099999996" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="4IP-dK-Ryn"/>
+                        <constraint firstAttribute="height" constant="60" id="ge2-hf-KpK"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" image="plus" catalog="system"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                            <size key="value" width="0.0" height="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                            <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="30"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="addOrderBtnPressed:" destination="-1" eventType="touchUpInside" id="9jO-d6-NSX"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.094117647058823528" green="0.13725490196078433" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Bkl-eS-nwh" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="4h6-wp-SKI"/>
+                <constraint firstItem="qwA-iS-7fe" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="7Cd-D0-MBX"/>
+                <constraint firstItem="aRL-oB-Jjt" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="D4a-SA-n2s"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="aRL-oB-Jjt" secondAttribute="trailing" id="JZX-sw-2uA"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="XIP-4J-XLl" secondAttribute="bottom" constant="30" id="ZYS-by-Pj1"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="qwA-iS-7fe" secondAttribute="trailing" id="c91-eU-hb1"/>
+                <constraint firstItem="aRL-oB-Jjt" firstAttribute="top" secondItem="qwA-iS-7fe" secondAttribute="bottom" id="juo-zX-Nlp"/>
+                <constraint firstItem="qwA-iS-7fe" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="qrD-bs-BIO"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="XIP-4J-XLl" secondAttribute="trailing" constant="20" id="sJM-J9-EQZ"/>
+                <constraint firstItem="aRL-oB-Jjt" firstAttribute="top" secondItem="Bkl-eS-nwh" secondAttribute="bottom" constant="-75" id="uLT-iE-6dx"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Bkl-eS-nwh" secondAttribute="trailing" id="w3u-hx-Dhl"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="aRL-oB-Jjt" secondAttribute="bottom" id="xjP-Ck-3gR"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="93.75"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bell.fill" catalog="system" width="128" height="124"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
+    </resources>
+</document>

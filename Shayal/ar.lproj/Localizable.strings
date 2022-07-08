@@ -1,0 +1,56 @@
+/* 
+  Localizable.strings
+  Shayal
+
+  Created by Moustafa Anas on 27/04/2022.
+  
+*/
+
+// OnBoarding
+"Skip" = "تخطي";
+"arrow.right" = "arrow.left";
+
+"So Confused, Don't know how to get your Orders?" = "مــرة محتــار ما تدري كيف تجيب طلباتك؟";
+"Example Text1 Example Text1 Example Text1 Example Text1 Example Text1 Example Text1 Example Text1 Example Text1" = "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء";
+
+"How could you think and Shayal is there?" = "شدعــوة تفكر وشيــال موجود؟";
+"Example Text2 Example Text2 Example Text2 Example Text2 Example Text2 Example Text2 Example Text2 Example Text2" = "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء";
+
+"Choose everything you want from anywhere and just set your location" = "اختــر كل اللي تبغاه من أي مكان وحدد موقعك بس";
+"Example Text3 Example Text3 Example Text3 Example Text3 Example Text3 Example Text3 Example Text3 Example Text3" = "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء";
+
+"Our delivery guy will get it very Quicklyyy" = "ومندوبنا رح يكون عندك صــــاروووخ";
+"Example Text4 Example Text4 Example Text4 Example Text4 Example Text4 Example Text4 Example Text4 Example Text4" = "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء";
+
+// Login
+"Welcome To Shayal App" = "أهـــلا بك في تطبيق شيـــال";
+
+"Please login to save your search result and your orders and surely for more fun!" = "قــم بسجيل دخولك من أجل حفظ نتائجكم البحثية وطلبــاتكم وبالطبع لمتعــة أكثر";
+
+"Phone Number is invalid" = "الرقم الذي أدخلتـــه غير صحــيح";
+
+"Incorrect Password" = "كلمة المرور غير صحيحة";
+
+"Sign up By" = "أو سجــل عن طــريق";
+
+"Don't Have Account?" = "ليس لديــك حساب ؟";
+
+"Login" = "تسجيـــل";
+
+"Sign up as Delivery" = "التسجيل كمندوب";
+
+"Forgot Password?" = "نسيــت كلمة المرور؟";
+
+"Sign up" = "تسجيل جديد";
+
+"Phone Number" = "رقم الجوال";
+
+"Password" = "كلمة المرور";
+
+"Loading..." = "جاري التحميل٠٠٠";
+
+"Login Successfully" = "تم تسجيل الدخول بنجاح";
+
+"Phone Number or Password is not Correct" = "رقم الهاتف او كلمة المرور غير صحيحة";
+
+"Something went wrong" = "حدث خطأ ما";

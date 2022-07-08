@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Almarai-Bold.ttf">
+            <string>Almarai-Bold</string>
+        </array>
+        <array key="Almarai-Regular.ttf">
+            <string>Almarai-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ActivationCodeVC" customModule="Shayal" customModuleProvider="target">
+            <connections>
+                <outlet property="changePhoneNumberBtn" destination="eaL-Bi-WjZ" id="Sdh-zt-eEg"/>
+                <outlet property="input1" destination="ddF-L8-Vz3" id="lzX-3R-3GO"/>
+                <outlet property="input2" destination="c2r-jy-z4Y" id="1Ys-7M-TPJ"/>
+                <outlet property="input3" destination="AGS-J1-R4D" id="SCS-qU-KF4"/>
+                <outlet property="input4" destination="VbS-g7-LpM" id="mtP-9i-1eV"/>
+                <outlet property="input5" destination="4lR-5B-cGW" id="tiI-iB-GWQ"/>
+                <outlet property="nxtBtn" destination="Rgn-qy-fRK" id="efr-Gv-SgF"/>
+                <outlet property="timerLbl" destination="VjT-QV-23y" id="xzp-Xv-63Q"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Code Background" translatesAutoresizingMaskIntoConstraints="NO" id="ESL-NG-OOi">
+                    <rect key="frame" x="0.0" y="64" width="414" height="330"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="330" id="f9m-oi-3Nj"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your Activation Code" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tCh-CF-ffZ">
+                    <rect key="frame" x="20" y="424" width="374" height="15"/>
+                    <fontDescription key="fontDescription" name="Almarai-Regular" family="Almarai" pointSize="13"/>
+                    <color key="textColor" red="0.80784313730000001" green="0.80784313730000001" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="gA1-vC-Msm">
+                    <rect key="frame" x="37" y="454" width="340" height="60"/>
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ddF-L8-Vz3" userLabel="Code Input">
+                            <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                            <color key="backgroundColor" red="0.1960784314" green="0.23529411759999999" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="DK1-x0-Uo8"/>
+                                <constraint firstAttribute="height" constant="60" id="hNP-Ou-0Wr"/>
+                            </constraints>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="Almarai-Regular" family="Almarai" pointSize="13"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="6"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c2r-jy-z4Y" userLabel="Code Input">
+                            <rect key="frame" x="70" y="0.0" width="60" height="60"/>
+                            <color key="backgroundColor" red="0.1960784314" green="0.23529411759999999" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="LtR-xq-WsV"/>
+                                <constraint firstAttribute="width" constant="60" id="v14-y0-AAO"/>
+                            </constraints>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="Almarai-Regular" family="Almarai" pointSize="13"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="6"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AGS-J1-R4D" userLabel="Code Input">
+                            <rect key="frame" x="140" y="0.0" width="60" height="60"/>
+                            <color key="backgroundColor" red="0.1960784314" green="0.23529411759999999" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="pBW-PE-azZ"/>
+                                <constraint firstAttribute="height" constant="60" id="zyD-Gi-P2A"/>
+                            </constraints>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="Almarai-Regular" family="Almarai" pointSize="13"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="6"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VbS-g7-LpM" userLabel="Code Input">
+                            <rect key="frame" x="210" y="0.0" width="60" height="60"/>
+                            <color key="backgroundColor" red="0.1960784314" green="0.23529411759999999" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="Znh-fp-qxT"/>
+                                <constraint firstAttribute="height" constant="60" id="ych-Vz-Y6Z"/>
+                            </constraints>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="Almarai-Regular" family="Almarai" pointSize="13"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="6"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4lR-5B-cGW" userLabel="Code Input">
+                            <rect key="frame" x="280" y="0.0" width="60" height="60"/>
+                            <color key="backgroundColor" red="0.1960784314" green="0.23529411759999999" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="O8b-fa-58g"/>
+                                <constraint firstAttribute="width" constant="60" id="dTP-OX-7w4"/>
+                            </constraints>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="Almarai-Regular" family="Almarai" pointSize="13"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="6"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </textField>
+                    </subviews>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rgn-qy-fRK">
+                    <rect key="frame" x="77" y="564" width="260" height="40"/>
+                    <color key="backgroundColor" red="0.1019607843" green="0.76862745099999996" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="enf-4U-HMg"/>
+                        <constraint firstAttribute="width" constant="260" id="vn3-jG-2wj"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Next">
+                        <fontDescription key="titleFontDescription" name="Almarai-Bold" family="Almarai" pointSize="15"/>
+                        <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </buttonConfiguration>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="nextBtnPressed:" destination="-1" eventType="touchUpInside" id="ZnX-aS-eZY"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:59" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VjT-QV-23y">
+                    <rect key="frame" x="195.5" y="616" width="23.5" height="15"/>
+                    <fontDescription key="fontDescription" name="Almarai-Bold" family="Almarai" pointSize="13"/>
+                    <color key="textColor" red="0.98431372549019602" green="0.67450980392156867" blue="0.20784313725490194" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eaL-Bi-WjZ">
+                    <rect key="frame" x="131" y="782" width="152.5" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="hfF-a8-7Io"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Change Phone Number?">
+                        <fontDescription key="titleFontDescription" name="Almarai-Regular" family="Almarai" pointSize="12"/>
+                        <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="changePhoneNumberBtnPressed:" destination="-1" eventType="touchUpInside" id="9GX-wX-BII"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.094117647058823528" green="0.13725490196078433" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ESL-NG-OOi" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="6au-Lt-e1u"/>
+                <constraint firstItem="Rgn-qy-fRK" firstAttribute="top" secondItem="gA1-vC-Msm" secondAttribute="bottom" constant="50" id="7wb-O3-JNg"/>
+                <constraint firstItem="tCh-CF-ffZ" firstAttribute="top" secondItem="ESL-NG-OOi" secondAttribute="bottom" constant="30" id="ASX-uY-UUh"/>
+                <constraint firstItem="gA1-vC-Msm" firstAttribute="top" secondItem="tCh-CF-ffZ" secondAttribute="bottom" constant="15" id="Fda-eX-x3p"/>
+                <constraint firstItem="VjT-QV-23y" firstAttribute="top" secondItem="Rgn-qy-fRK" secondAttribute="bottom" constant="12" id="QoA-YM-gDI"/>
+                <constraint firstItem="ESL-NG-OOi" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="Rsp-iX-5xD"/>
+                <constraint firstItem="Rgn-qy-fRK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ThQ-Af-Q2b"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="eaL-Bi-WjZ" secondAttribute="bottom" constant="50" id="ZDb-uO-uZ6"/>
+                <constraint firstItem="tCh-CF-ffZ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="cVl-cm-Uun"/>
+                <constraint firstAttribute="trailing" secondItem="ESL-NG-OOi" secondAttribute="trailing" id="e2z-7b-XVg"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="tCh-CF-ffZ" secondAttribute="trailing" constant="20" id="ftf-ME-8JD"/>
+                <constraint firstItem="tCh-CF-ffZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="rDj-Ow-7ym"/>
+                <constraint firstItem="gA1-vC-Msm" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="uQ4-oz-pGb"/>
+                <constraint firstItem="VjT-QV-23y" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="yO1-2E-qHg"/>
+                <constraint firstItem="eaL-Bi-WjZ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="zUe-5t-SPV"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="88"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Code Background" width="1080" height="1080"/>
+    </resources>
+</document>

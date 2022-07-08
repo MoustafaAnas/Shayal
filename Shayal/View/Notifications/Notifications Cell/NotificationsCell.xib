@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Almarai-Bold.ttf">
+            <string>Almarai-Bold</string>
+        </array>
+        <array key="Almarai-Regular.ttf">
+            <string>Almarai-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NotificationsCell" rowHeight="113" id="KGk-i7-Jjw" customClass="NotificationsCell" customModule="Shayal" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="368" height="113"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="368" height="113"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aRJ-tJ-YxY">
+                        <rect key="frame" x="0.0" y="5" width="368" height="103"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shayal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z6q-pF-hML">
+                                <rect key="frame" x="74" y="36" width="194" height="15"/>
+                                <fontDescription key="fontDescription" name="Almarai-Bold" family="Almarai" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bell.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="UKe-DZ-1xu">
+                                <rect key="frame" x="20" y="30" width="44" height="43.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.1019607843" green="0.76862745099999996" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Ocq-u0-FAu"/>
+                                    <constraint firstAttribute="width" constant="44" id="TRw-wP-JeX"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="22"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notification" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ulh-Rw-nhC">
+                                <rect key="frame" x="74" y="53.5" width="214" height="12.5"/>
+                                <fontDescription key="fontDescription" name="Almarai-Regular" family="Almarai" pointSize="11"/>
+                                <color key="textColor" white="0.39530187074829931" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hlQ-N0-VyZ">
+                                <rect key="frame" x="340" y="47.5" width="8" height="8"/>
+                                <color key="backgroundColor" red="0.1019607843" green="0.76862745099999996" blue="0.71372549019999998" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="8" id="0er-w3-CQK"/>
+                                    <constraint firstAttribute="width" constant="8" id="C84-B3-zzK"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.1019607843" green="0.76862745099999996" blue="0.71372549019999998" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Ulh-Rw-nhC" secondAttribute="trailing" constant="80" id="0Ll-O5-2ko"/>
+                            <constraint firstItem="UKe-DZ-1xu" firstAttribute="centerY" secondItem="aRJ-tJ-YxY" secondAttribute="centerY" id="1IP-2t-2dg"/>
+                            <constraint firstItem="z6q-pF-hML" firstAttribute="centerY" secondItem="aRJ-tJ-YxY" secondAttribute="centerY" constant="-8" id="1fX-rr-nh6"/>
+                            <constraint firstItem="hlQ-N0-VyZ" firstAttribute="centerY" secondItem="aRJ-tJ-YxY" secondAttribute="centerY" id="2Zc-KE-1X6"/>
+                            <constraint firstItem="Ulh-Rw-nhC" firstAttribute="centerY" secondItem="aRJ-tJ-YxY" secondAttribute="centerY" constant="8" id="4Ff-xK-RlS"/>
+                            <constraint firstItem="Ulh-Rw-nhC" firstAttribute="leading" secondItem="UKe-DZ-1xu" secondAttribute="trailing" constant="10" id="ENe-wX-93v"/>
+                            <constraint firstAttribute="trailing" secondItem="z6q-pF-hML" secondAttribute="trailing" constant="100" id="FbU-Nq-Xka"/>
+                            <constraint firstAttribute="trailing" secondItem="hlQ-N0-VyZ" secondAttribute="trailing" constant="20" id="Fgp-9R-Rq2"/>
+                            <constraint firstItem="UKe-DZ-1xu" firstAttribute="leading" secondItem="aRJ-tJ-YxY" secondAttribute="leading" constant="20" id="R5B-hb-Ao3"/>
+                            <constraint firstItem="z6q-pF-hML" firstAttribute="leading" secondItem="UKe-DZ-1xu" secondAttribute="trailing" constant="10" id="SQw-mF-gYh"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="aRJ-tJ-YxY" secondAttribute="bottom" constant="5" id="CUl-PT-3G4"/>
+                    <constraint firstAttribute="trailing" secondItem="aRJ-tJ-YxY" secondAttribute="trailing" id="MaU-bz-aSK"/>
+                    <constraint firstItem="aRJ-tJ-YxY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="ihg-C9-LXL"/>
+                    <constraint firstItem="aRJ-tJ-YxY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="yUJ-AC-hLu"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="containerView" destination="aRJ-tJ-YxY" id="y9c-gD-Iyh"/>
+                <outlet property="deliveryNameLbl" destination="z6q-pF-hML" id="j9f-GC-cUM"/>
+                <outlet property="isCompleted" destination="hlQ-N0-VyZ" id="MtL-7r-xRt"/>
+                <outlet property="notificationsContentLbl" destination="Ulh-Rw-nhC" id="Dmx-57-oIc"/>
+            </connections>
+            <point key="canvasLocation" x="102.89855072463769" y="118.86160714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bell.fill" catalog="system" width="128" height="124"/>
+    </resources>
+</document>

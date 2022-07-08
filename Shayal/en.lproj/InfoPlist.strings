@@ -1,0 +1,15 @@
+/* 
+  InfoPlist.strings
+  Shayal
+
+  Created by Moustafa Anas on 06/05/2022.
+  
+*/
+
+
+"CFBundleName" = "Shayal";
+
+"NSLocationWhenInUseUsageDescription" = "Shayal needs your location to deliver your order and to be able to track your order";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Shayal needs your location to deliver your order and to be able to track your order";
+"NSPhotoLibraryUsageDescription" = "Shayal needs to use photo library to get your profile picture";
+"NSCameraUsageDescription" = "Shayal needs to use camera to get your profile picture";
