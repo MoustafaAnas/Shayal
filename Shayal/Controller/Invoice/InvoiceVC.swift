@@ -21,7 +21,6 @@ final class InvoiceVC: UIViewController {
         super.viewDidLoad()
         title = "Invoice".localized()
         navigationItem.backButtonTitle = ""
-        localized()
     }
 
     override func viewWillAppear(_ animated: Bool) {

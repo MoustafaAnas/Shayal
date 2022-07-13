@@ -1,0 +1,57 @@
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "EEc-lS-aLb"; */
+"EEc-lS-aLb.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Sign up as Delivery"; ObjectID = "Kdx-LU-XUh"; */
+"Kdx-LU-XUh.configuration.title" = "التسجيل كمندوب";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Kdx-LU-XUh"; */
+"Kdx-LU-XUh.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Welcome To Shayal App"; ObjectID = "MMM-NV-pxe"; */
+"MMM-NV-pxe.text" = "أهـــلا بك في تطبيق شيـــال";
+
+/* Class = "UIButton"; configuration.title = "Login"; ObjectID = "NZm-uR-fku"; */
+"NZm-uR-fku.configuration.title" = "تسجيـــل";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "NZm-uR-fku"; */
+"NZm-uR-fku.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "WCf-Bb-hfc"; */
+"WCf-Bb-hfc.placeholder" = "كلمة المرور";
+
+/* Class = "UITextField"; placeholder = "Phone Number"; ObjectID = "elk-vL-Wcd"; */
+"elk-vL-Wcd.placeholder" = "رقم الجوال";
+
+/* Class = "UILabel"; text = "Sign up By"; ObjectID = "hJd-b4-P6j"; */
+"hJd-b4-P6j.text" = "أو سجــل عن طــريق";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "l3J-1f-i1F"; */
+"l3J-1f-i1F.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Phone Number is invalid"; ObjectID = "o3K-ML-9Zf"; */
+"o3K-ML-9Zf.text" = "الرقم الذي أدخلتـــه غير صحــيح";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "tU3-0v-SVJ"; */
+"tU3-0v-SVJ.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Please login to save your search result and your orders and surely for more fun!"; ObjectID = "u11-cL-5hc"; */
+"u11-cL-5hc.text" = "قــم بسجيل دخولك من أجل حفظ نتائجكم البحثية وطلبــاتكم وبالطبع لمتعــة أكثر!";
+
+/* Class = "UIButton"; configuration.title = "Sign up"; ObjectID = "uAq-bm-aSp"; */
+"uAq-bm-aSp.configuration.title" = "تسجيل جديد";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "uAq-bm-aSp"; */
+"uAq-bm-aSp.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Forgot Password?"; ObjectID = "vME-WK-AJM"; */
+"vME-WK-AJM.configuration.title" = "نسيــت كلمة المرور؟";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "vME-WK-AJM"; */
+"vME-WK-AJM.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Don't Have Account?"; ObjectID = "wZl-mK-AR9"; */
+"wZl-mK-AR9.text" = "ليس لديــك حساب ؟";
+
+/* Class = "UILabel"; text = "Incorrect Password"; ObjectID = "ydR-xq-8JM"; */
+"ydR-xq-8JM.text" = "كلمة المرور غير صحيحة";

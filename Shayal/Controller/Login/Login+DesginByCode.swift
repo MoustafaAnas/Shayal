@@ -13,12 +13,12 @@ extension LoginVC {
     func setupInterfaceDesign() {
         navigationController?.isNavigationBarHidden = true
         
-        forgotPasswordBtn.underline(text: "Forgot Password?".localized())
-        signupBtn.underline(text: "Sign up".localized())
+//        forgotPasswordBtn.underline()
+//        signupBtn.underline()
         loginBtn.setGradientBackground(colorOne: AppColor.btnGradientColor, colorTwo: AppColor.mainColor)
         
-        phoneNumberTxtField.attributedPlaceholder = NSAttributedString(string: "Phone Number".localized(), attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
-        passwordTxtField.attributedPlaceholder = NSAttributedString(string: "Password".localized(), attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
+        phoneNumberTxtField.placeHolderColor(color: .white)
+        passwordTxtField.placeHolderColor(color: .white)
         
         addBtnToTextField(textField: passwordTxtField, img: UIImage(systemName: "eye.fill")!, tintColor: UIColor.white)
         passwordTxtField.isSecureTextEntry = true
@@ -37,10 +37,8 @@ extension LoginVC {
     
     
     override func viewDidLayoutSubviews() {
-        forgotPasswordBtn.titleLabel?.font = UIFont(name: "Almarai-Bold", size: 12)
-        loginBtn.titleLabel?.font = UIFont(name: "Almarai-Bold", size: 15)
+//        forgotPasswordBtn.titleLabel?.font = UIFont(name: "Almarai-Bold", size: 12)
 //        signupBtn.titleLabel?.font = UIFont(name: "Almarai-Bold", size: 12)
-        signupAsDeliveryBtn.titleLabel?.font = UIFont(name: "Almarai-Bold", size: 13)
     }
     
     // NavigationBar Customization

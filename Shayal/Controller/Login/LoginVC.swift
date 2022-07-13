@@ -29,7 +29,6 @@ final class LoginVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.backButtonTitle = ""
-        localized()
         setupTextField()
     }
 

@@ -25,10 +25,10 @@ final class AddOrderVC: UIViewController {
     let dataContainerPickerView = UIPickerView()
     var currentIndex = 0
     
-    var packageTypePickerViewArr = ["Electronics".localized(), "Food".localized()]
-    var vehicleModelPickerViewArr = ["2000".localized(), "2010".localized(), "2020".localized()]
-    var vehicleTypePickerViewArr = ["Sedan".localized(), "Hatchback".localized(), "Motocycle".localized()]
-    var voucherPickerViewArr = ["40%".localized(), "50%".localized(), "30%".localized()]
+    var packageTypePickerViewArr = ["Electronics", "Food"]
+    var vehicleModelPickerViewArr = ["2000", "2010", "2020"]
+    var vehicleTypePickerViewArr = ["Sedan", "Hatchback", "Motocycle"]
+    var voucherPickerViewArr = ["40%", "50%", "30%"]
     
     
     // MARK: - ViewController Cycle
@@ -36,9 +36,9 @@ final class AddOrderVC: UIViewController {
         super.viewDidLoad()
         title = "Add New Order".localized()
         navigationItem.backButtonTitle = ""
-        localized()
         setupTextField()
         setupPickerView()
+        
     }
 
 
@@ -50,7 +50,6 @@ final class AddOrderVC: UIViewController {
     
     override func viewDidLayoutSubviews() {
         orderBtn.setGradientBackground(colorOne: AppColor.btnGradientColor, colorTwo: AppColor.mainColor)
-        orderBtn.titleLabel?.font = UIFont(name: "Almarai-Bold", size: 15)
     }
     
     // MARK: - Buttons Actions

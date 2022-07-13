@@ -25,7 +25,7 @@ class ProfileVC: UIViewController {
 
         title = "Profile".localized()
         navigationItem.backButtonTitle = ""
-        localized()
+        balanceLbl.text = "100 " + "S.R".localized()
         customEditProfileBtn()
     }
 

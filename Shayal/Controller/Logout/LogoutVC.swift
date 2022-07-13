@@ -21,15 +21,12 @@ final class LogoutVC: UIViewController {
     // MARK: - ViewController Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        localized()
         customizeBlurViewAction()
         setupLottieAnimation()
     }
     
     override func viewDidLayoutSubviews() {
         logoutBtn.setGradientBackground(colorOne: AppColor.btnGradientColor, colorTwo: AppColor.mainColor)
-        logoutBtn.titleLabel?.font = UIFont(name: "Almarai-Bold", size: 15)
-        cancelBtn.titleLabel?.font = UIFont(name: "Almarai-Bold", size: 15)
     }
 
     // MARK: - Buttons Actions

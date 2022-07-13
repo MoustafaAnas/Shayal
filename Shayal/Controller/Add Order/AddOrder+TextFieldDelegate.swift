@@ -13,6 +13,7 @@ extension AddOrderVC: UITextFieldDelegate {
     // MARK: - Setup TextFields
 
     func setupTextField() {
+        
         deliveryFromTxtField.setPadding()
         deliveryToTextField.setPadding()
         packageTypeTextField.setPadding()
@@ -43,6 +44,8 @@ extension AddOrderVC: UITextFieldDelegate {
     
     func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool{
         switch textField {
+        case deliveryFromTxtField: view.endEditing(true)
+        case deliveryToTextField: view.endEditing(true)
         case packageTypeTextField: pickerViewArr = packageTypePickerViewArr
         case vehicleModelTxtField: pickerViewArr = vehicleModelPickerViewArr
         case vehicleTypeTxtField:  pickerViewArr = vehicleTypePickerViewArr
@@ -59,14 +62,15 @@ extension AddOrderVC: UITextFieldDelegate {
         textField.textFieldTracer()
         switch textField {
             case deliveryFromTxtField:
-                //deliveryToTextField.becomeFirstResponder()
-            view.endEditing(true)
                 let vc = MapVC()
                 vc.mapTitle = "Get Package From".localized()
                 vc.delegate = self
                 navigationController?.pushViewController(vc, animated: true)
+                view.endEditing(true)
             
-            case deliveryToTextField: getUserLocation()
+            case deliveryToTextField:
+            view.endEditing(true)
+            getUserLocation()
             
             case packageTypeTextField:
             textField.inputView = dataContainerPickerView

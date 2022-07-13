@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Ahmed Mohamed"; ObjectID = "H7D-vb-FKC"; */
+"H7D-vb-FKC.text" = "أحمد محمد";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "XTb-X0-oS5"; */
+"XTb-X0-oS5.configuration.title" = "متـــابعة";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "XTb-X0-oS5"; */
+"XTb-X0-oS5.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "50 R.S"; ObjectID = "bxy-xG-f8m"; */
+"bxy-xG-f8m.text" = "50 ريال";
+
+/* Class = "UILabel"; text = "Final Cost"; ObjectID = "c3K-29-zE9"; */
+"c3K-29-zE9.text" = "التكلفة النھائیة";

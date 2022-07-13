@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; configuration.title = "Change Phone Number?"; ObjectID = "6Ud-j2-hA1"; */
+"6Ud-j2-hA1.configuration.title" = "تغيير رقــم الجوال ؟";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "6Ud-j2-hA1"; */
+"6Ud-j2-hA1.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "0:59"; ObjectID = "aaa-7H-jZP"; */
+"aaa-7H-jZP.text" = "0:59";
+
+/* Class = "UILabel"; text = "Enter your Activation Code"; ObjectID = "pQx-6t-FLb"; */
+"pQx-6t-FLb.text" = "قم بإدخال الرمز المرسل إلى الرقــم";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "xAA-Ad-3uu"; */
+"xAA-Ad-3uu.configuration.title" = "متــابعة";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "xAA-Ad-3uu"; */
+"xAA-Ad-3uu.normalTitle" = "Button";

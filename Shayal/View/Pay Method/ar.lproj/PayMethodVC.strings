@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "Pay Method"; ObjectID = "3TV-mJ-tAl"; */
+"3TV-mJ-tAl.text" = "طريقة الدفع";
+
+/* Class = "UILabel"; text = "Pay With"; ObjectID = "D8O-q3-QxJ"; */
+"D8O-q3-QxJ.text" = "الـــدفع عن طريق";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "IlS-aE-hqV"; */
+"IlS-aE-hqV.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Cash"; ObjectID = "XGa-cj-h9Q"; */
+"XGa-cj-h9Q.text" = "الدفع كاش";
+
+/* Class = "UILabel"; text = "Pay With"; ObjectID = "f92-2W-O0F"; */
+"f92-2W-O0F.text" = "الـــدفع عن طريق";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "fGw-xd-ttk"; */
+"fGw-xd-ttk.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "hcx-34-zDW"; */
+"hcx-34-zDW.configuration.title" = "متــــابعة";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hcx-34-zDW"; */
+"hcx-34-zDW.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Credit Card"; ObjectID = "ylR-XN-fp9"; */
+"ylR-XN-fp9.text" = "الدفع الإلكتروني";

@@ -24,7 +24,6 @@ final class NewPasswordVC: UIViewController {
         title  = "New Password".localized()
         navigationItem.backButtonTitle = ""
         
-        localized()
         customBackBtn()
         setupInterfaceDesign()
         setupTextField()
@@ -53,8 +52,8 @@ final class NewPasswordVC: UIViewController {
     
     // MARK: - Custom Functions
     func setupInterfaceDesign() {
-        newPasswordTxtField.attributedPlaceholder = NSAttributedString(string: "New Password".localized(), attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
-        confirmNewPasswordTxtField.attributedPlaceholder = NSAttributedString(string: "Confirm New Password".localized(), attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
+        newPasswordTxtField.placeHolderColor(color: .white)
+        confirmNewPasswordTxtField.placeHolderColor(color: .white)
         saveBtn.setGradientBackground(colorOne: AppColor.btnGradientColor, colorTwo: AppColor.mainColor)
     }
 }

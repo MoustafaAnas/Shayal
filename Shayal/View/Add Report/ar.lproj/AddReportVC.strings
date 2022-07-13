@@ -1,0 +1,18 @@
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "2TG-IR-1NZ"; */
+"2TG-IR-1NZ.placeholder" = "الاسم";
+
+/* Class = "UITextField"; text = "Ahmed Mohamed"; ObjectID = "2TG-IR-1NZ"; */
+"2TG-IR-1NZ.text" = "أحمد محمد";
+
+/* Class = "UILabel"; text = "Add Report"; ObjectID = "3RH-hf-ab8"; */
+"3RH-hf-ab8.text" = "إضافة شكوى";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Lll-dS-HVE"; */
+"Lll-dS-HVE.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Report"; ObjectID = "TPa-rA-p9f"; */
+"TPa-rA-p9f.configuration.title" = "إرسال";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "TPa-rA-p9f"; */
+"TPa-rA-p9f.normalTitle" = "Button";

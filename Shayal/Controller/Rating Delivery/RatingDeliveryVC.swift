@@ -13,6 +13,7 @@ final class RatingDeliveryVC: UIViewController {
 
     // MARK: - Identifying Vars
     @IBOutlet weak var ratingBlurView: UIVisualEffectView!
+    @IBOutlet weak var containerView: UIView!
     @IBOutlet weak var ratingView: CosmosView!
     @IBOutlet weak var ratingDeliveryVCTitleLbl: UILabel!
     @IBOutlet weak var deliveryGuyImg: UIImageView!
@@ -25,13 +26,13 @@ final class RatingDeliveryVC: UIViewController {
     // MARK: - ViewController Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        localized()
         customizeBlurViewAction()
         didRatedDelivery()
         setupTextView()
     }
     
     override func viewDidLayoutSubviews() {
+        containerView.roundCorners(corners: [.topLeft, .topRight], radius: 30)
         rateBtn.setGradientBackground(colorOne: AppColor.btnGradientColor, colorTwo: AppColor.mainColor)
         rateBtn.titleLabel?.font = UIFont(name: "Almarai-Bold", size: 15)
     }

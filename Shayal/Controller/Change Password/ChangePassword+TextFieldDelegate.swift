@@ -19,8 +19,8 @@ extension ChangePasswordVC: UITextFieldDelegate {
         newPasswordTxtField.delegate = self
         confirmNewPasswordTxtField.delegate = self
         
-        newPasswordTxtField.attributedPlaceholder = NSAttributedString(string: "New Password".localized(), attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
-        confirmNewPasswordTxtField.attributedPlaceholder = NSAttributedString(string: "Confirm New Password".localized(), attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
+        newPasswordTxtField.placeHolderColor(color: .white)
+        confirmNewPasswordTxtField.placeHolderColor(color: .white)
         
         newPasswordTxtField.backgroundColor = AppColor.textFieldBackground
         confirmNewPasswordTxtField.backgroundColor = AppColor.textFieldBackground

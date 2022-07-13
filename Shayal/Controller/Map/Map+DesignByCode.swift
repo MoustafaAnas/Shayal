@@ -83,9 +83,9 @@ extension MapVC {
     
     // show alert message
     func showAlert(msg: String) {
-        let alert = UIAlertController(title: "Alert", message: msg, preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "Close", style: .cancel))
-        alert.addAction(UIAlertAction(title: "Settings", style: .default, handler: { action in
+        let alert = UIAlertController(title: "Alert".localized(), message: msg, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Close".localized(), style: .cancel))
+        alert.addAction(UIAlertAction(title: "Settings".localized(), style: .default, handler: { action in
                 UIApplication.shared.open(URL(string: UIApplication.openSettingsURLString)!)
         }))
         

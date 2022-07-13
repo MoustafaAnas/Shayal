@@ -77,7 +77,7 @@ final class ActivationCodeVC: UIViewController {
         timerLbl.text = "01:00"
         seenTimer = 59
         nxtBtn.setGradientBackground(colorOne: AppColor.btnGradientColor, colorTwo: AppColor.mainColor)
-        changePhoneNumberBtn.underline(text: "Change Phone Number?".localized())
+        changePhoneNumberBtn.underline()
     }
     
     // Getting Code Verfication

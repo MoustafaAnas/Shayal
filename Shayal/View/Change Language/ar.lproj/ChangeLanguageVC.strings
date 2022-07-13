@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "6jf-Le-Rpa"; */
+"6jf-Le-Rpa.text" = "اللغــــــة";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "FiW-ua-N5u"; */
+"FiW-ua-N5u.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Please Choose Language"; ObjectID = "HtB-Pc-CAg"; */
+"HtB-Pc-CAg.text" = "برجــاء اختيــار اللغة";
+
+/* Class = "UIButton"; configuration.title = "Save"; ObjectID = "T7A-z2-Kna"; */
+"T7A-z2-Kna.configuration.title" = "حفـــظ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "T7A-z2-Kna"; */
+"T7A-z2-Kna.normalTitle" = "Button";
+
+/* Class = "UITextField"; text = "اللغة العربية"; ObjectID = "ilg-QZ-LoE"; */
+"ilg-QZ-LoE.text" = "اللغة العربية";
+
+/* Class = "UITextField"; text = "English"; ObjectID = "sAf-vy-muK"; */
+"sAf-vy-muK.text" = "English";

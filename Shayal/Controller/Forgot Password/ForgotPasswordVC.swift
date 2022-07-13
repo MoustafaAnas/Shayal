@@ -21,7 +21,6 @@ final class ForgotPasswordVC: UIViewController {
         title  = "Forgot Password".localized()
         navigationItem.backButtonTitle = ""
         
-        localized()
         setupTextField()
     }
 
@@ -41,7 +40,7 @@ final class ForgotPasswordVC: UIViewController {
     // MARK: - Custom Functions
     func setupInterfaceDesign() {
         navigationController?.isNavigationBarHidden = false
-        phoneNumberTxtField.attributedPlaceholder = NSAttributedString(string: "Phone Number".localized(), attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
+        phoneNumberTxtField.placeHolderColor(color: .white)
         nextBtn.setGradientBackground(colorOne: AppColor.btnGradientColor, colorTwo: AppColor.mainColor)
         phoneNumberTxtField.text = ""
         phoneNumberTxtField.becomeFirstResponder()

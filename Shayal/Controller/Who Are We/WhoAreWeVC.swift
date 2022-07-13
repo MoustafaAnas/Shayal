@@ -15,9 +15,9 @@ final class WhoAreWeVC: UIViewController {
     // MARK: - ViewController Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-
         title = "Who Are We".localized()
         navigationItem.backButtonTitle = ""
+        localized()
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -27,7 +27,7 @@ final class WhoAreWeVC: UIViewController {
     
     // MARK: - Custom Functions
     func localized() {
-        whoAreWeContentLbl.text = "Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text".localized()
+        whoAreWeContentLbl.text = "Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text".localized()
     }
 
 }

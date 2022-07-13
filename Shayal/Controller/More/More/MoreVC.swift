@@ -21,7 +21,6 @@ final class MoreVC: UIViewController {
         super.viewDidLoad()
         navigationController?.navigationBar.topItem?.title = "More".localized()
         navigationItem.backButtonTitle = ""
-        localized()
         setupGestureRecognizerAction()
         setupTableView()
     }
