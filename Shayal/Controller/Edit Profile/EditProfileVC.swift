@@ -28,22 +28,19 @@ final class EditProfileVC: UIViewController {
     
     var bankPickerViewArr = ["Bank Misr".localized(), "QNB".localized(), "HSBC".localized()]
     var countryPickerViewArr = ["Egypt".localized(), "Morocco".localized(), "Qatar".localized()]
-    var cityPickerViewArr = ["Mansoura".localized(), "Cairo".localized(), "Alex".localized()]
+    var cityPickerViewArr = ["Masnoura".localized(), "Cairo".localized(), "Alex".localized()]
         
     // MARK: - ViewController Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Edit Profile".localized()
         navigationItem.backButtonTitle = ""
-        view.endEditing(true)
-        localized()
         setupTextField()
         setupPickerView()
     }
     
     override func viewDidLayoutSubviews() {
         saveBtn.setGradientBackground(colorOne: AppColor.btnGradientColor, colorTwo: AppColor.mainColor)
-        saveBtn.titleLabel?.font = UIFont(name: "Almarai-Bold", size: 15)
         cameraBtn.frame = CGRect(x: 0, y: 0, width: 30, height: 30)
     }
 

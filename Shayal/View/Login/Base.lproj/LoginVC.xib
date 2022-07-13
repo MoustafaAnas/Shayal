@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Almarai-Bold.ttf">
+            <string>Almarai-Bold</string>
+        </array>
+        <array key="Almarai-ExtraBold.ttf">
+            <string>Almarai-ExtraBold</string>
+        </array>
+        <array key="Almarai-Regular.ttf">
+            <string>Almarai-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginVC" customModule="Shayal" customModuleProvider="target">
+            <connections>
+                <outlet property="dontHaveAccountLbl" destination="wZl-mK-AR9" id="u4e-lU-rFn"/>
+                <outlet property="forgotPasswordBtn" destination="vME-WK-AJM" id="gce-q2-H5S"/>
+                <outlet property="incorrectPasswordLbl" destination="ydR-xq-8JM" id="A2P-bt-Lqg"/>
+                <outlet property="invalidPhoneNumberHeight" destination="PNw-eF-Kau" id="fPR-l7-xpX"/>
+                <outlet property="invalidPhoneNumberLbl" destination="o3K-ML-9Zf" id="cAf-qe-8ay"/>
+                <outlet property="loginBenefitsLbl" destination="u11-cL-5hc" id="19M-gS-q7g"/>
+                <outlet property="loginBtn" destination="NZm-uR-fku" id="W6V-OM-QV8"/>
+                <outlet property="passwordTxtField" destination="WCf-Bb-hfc" id="6zA-uS-jN0"/>
+                <outlet property="phoneNumberTxtField" destination="elk-vL-Wcd" id="5F8-Nh-YOx"/>
+                <outlet property="signupAsDeliveryBtn" destination="Kdx-LU-XUh" id="pAm-Ff-qMY"/>
+                <outlet property="signupBtn" destination="uAq-bm-aSp" id="CgG-r8-baw"/>
+                <outlet property="signupByLbl" destination="hJd-b4-P6j" id="6kX-OH-dXA"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="welcomeLbl" destination="MMM-NV-pxe" id="bc8-DZ-2l9"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Rf-9m-90X">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ftI-ga-vpp">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="748"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome To Shayal App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MMM-NV-pxe">
+                                    <rect key="frame" x="20" y="50" width="234" height="22.5"/>
+                                    <fontDescription key="fontDescription" name="Almarai-ExtraBold" family="Almarai" pointSize="20"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please login to save your search result and your orders and surely for more fun!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u11-cL-5hc">
+                                    <rect key="frame" x="20" y="87.5" width="314" height="27"/>
+                                    <fontDescription key="fontDescription" name="Almarai-Regular" family="Almarai" pointSize="12"/>
+                                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="buo-8b-r2Y">
+                                    <rect key="frame" x="20" y="164.5" width="374" height="127"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="UWh-uh-Yp2">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="55"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Phone Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="elk-vL-Wcd">
+                                                    <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
+                                                    <color key="backgroundColor" red="0.1960784314" green="0.23529411759999999" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="50" id="7IN-Et-Ozz"/>
+                                                    </constraints>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" name="Almarai-Regular" family="Almarai" pointSize="13"/>
+                                                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="6"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </textField>
+                                                <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Number is invalid" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o3K-ML-9Zf">
+                                                    <rect key="frame" x="0.0" y="55" width="374" height="0.0"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" id="PNw-eF-Kau"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Almarai-Bold" family="Almarai" pointSize="10"/>
+                                                    <color key="textColor" red="0.96470588239999999" green="0.3411764706" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="nis-3h-jDj">
+                                            <rect key="frame" x="0.0" y="60" width="374" height="67"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WCf-Bb-hfc">
+                                                    <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
+                                                    <color key="backgroundColor" red="0.1960784314" green="0.23529411759999999" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="50" id="pZC-ih-cAq"/>
+                                                    </constraints>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" name="Almarai-Regular" family="Almarai" pointSize="13"/>
+                                                    <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="6"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </textField>
+                                                <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Incorrect Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ydR-xq-8JM">
+                                                    <rect key="frame" x="0.0" y="55" width="374" height="12"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="12" id="5oE-qN-smc"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Almarai-Bold" family="Almarai" pointSize="10"/>
+                                                    <color key="textColor" red="0.96470588239999999" green="0.3411764706" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                </stackView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vME-WK-AJM">
+                                    <rect key="frame" x="277" y="291.5" width="127" height="27.5"/>
+                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="Forgot Password?">
+                                        <fontDescription key="titleFontDescription" name="Almarai-Bold" family="Almarai" pointSize="12"/>
+                                        <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </buttonConfiguration>
+                                    <connections>
+                                        <action selector="forgotPasswordBtnIsPressed:" destination="-1" eventType="touchUpInside" id="q9g-aT-Hx5"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NZm-uR-fku">
+                                    <rect key="frame" x="77" y="379" width="260" height="40"/>
+                                    <color key="backgroundColor" red="0.1019607843" green="0.76862745099999996" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="DnW-Zc-IZ5"/>
+                                        <constraint firstAttribute="width" constant="260" id="qWS-qU-iKe"/>
+                                    </constraints>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="Login">
+                                        <fontDescription key="titleFontDescription" name="Almarai-Bold" family="Almarai" pointSize="15"/>
+                                        <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </buttonConfiguration>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="20"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="loginBtnIsPressed:" destination="-1" eventType="touchUpInside" id="YKC-AH-qex"/>
+                                    </connections>
+                                </button>
+                                <button clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kdx-LU-XUh">
+                                    <rect key="frame" x="137.5" y="689" width="139" height="34"/>
+                                    <color key="backgroundColor" red="0.1172118159" green="0.17290135509999999" blue="0.28675704660000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="34" id="btd-pf-saQ"/>
+                                    </constraints>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="Sign up as Delivery">
+                                        <fontDescription key="titleFontDescription" name="Almarai-Bold" family="Almarai" pointSize="13"/>
+                                        <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </buttonConfiguration>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="17"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                            <color key="value" red="0.80784313730000001" green="0.80784313730000001" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="signupAsDeliveryBtnIsPressed:" destination="-1" eventType="touchUpInside" id="3Sl-xJ-AYg"/>
+                                    </connections>
+                                </button>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="9h9-0b-KrO">
+                                    <rect key="frame" x="144" y="567.5" width="126" height="34"/>
+                                    <subviews>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tU3-0v-SVJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="34" height="34"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="34" id="Ddh-I2-T3P"/>
+                                                <constraint firstAttribute="width" constant="34" id="X3y-1B-MrW"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" image="FBicon"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="17"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="signupByFacebookBtnPressed:" destination="-1" eventType="touchUpInside" id="SaO-AD-jFz"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l3J-1f-i1F">
+                                            <rect key="frame" x="46" y="0.0" width="34" height="34"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" image="GoogleIcon">
+                                                <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
+                                            </buttonConfiguration>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="17"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="signupByGoogleBtnPressed:" destination="-1" eventType="touchUpInside" id="Uit-6K-zUy"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EEc-lS-aLb">
+                                            <rect key="frame" x="92" y="0.0" width="34" height="34"/>
+                                            <color key="backgroundColor" red="0.01176470588" green="0.66274509800000003" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" image="TwitterIcon"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="17"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="signupByTwitterBtnPressed:" destination="-1" eventType="touchUpInside" id="JiA-wB-SDN"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign up By" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJd-b4-P6j">
+                                    <rect key="frame" x="179.5" y="539" width="55" height="13.5"/>
+                                    <fontDescription key="fontDescription" name="Almarai-Regular" family="Almarai" pointSize="12"/>
+                                    <color key="textColor" red="0.80784313730000001" green="0.80784313730000001" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="azq-En-El3">
+                                    <rect key="frame" x="114.5" y="636.5" width="185" height="27.5"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't Have Account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wZl-mK-AR9">
+                                            <rect key="frame" x="0.0" y="0.0" width="118.5" height="27.5"/>
+                                            <fontDescription key="fontDescription" name="Almarai-Bold" family="Almarai" pointSize="12"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAq-bm-aSp">
+                                            <rect key="frame" x="118.5" y="0.0" width="66.5" height="27.5"/>
+                                            <color key="tintColor" red="0.98431372549999996" green="0.67450980390000004" blue="0.20784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="Sign up">
+                                                <fontDescription key="titleFontDescription" name="Almarai-Bold" family="Almarai" pointSize="12"/>
+                                                <color key="baseForegroundColor" red="0.98431372549999996" green="0.67450980390000004" blue="0.20784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </buttonConfiguration>
+                                            <connections>
+                                                <action selector="signupBtnIsPressed:" destination="-1" eventType="touchUpInside" id="jfA-dA-iLh"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="Kdx-LU-XUh" firstAttribute="top" secondItem="azq-En-El3" secondAttribute="bottom" constant="25" id="0tJ-Ev-ehZ"/>
+                                <constraint firstItem="hJd-b4-P6j" firstAttribute="centerX" secondItem="ftI-ga-vpp" secondAttribute="centerX" id="3lQ-1P-Dkw"/>
+                                <constraint firstAttribute="bottom" secondItem="Kdx-LU-XUh" secondAttribute="bottom" constant="25" id="9C0-iQ-OIW"/>
+                                <constraint firstItem="NZm-uR-fku" firstAttribute="centerX" secondItem="ftI-ga-vpp" secondAttribute="centerX" id="B65-P3-4G0"/>
+                                <constraint firstItem="u11-cL-5hc" firstAttribute="leading" secondItem="ftI-ga-vpp" secondAttribute="leading" constant="20" id="BYb-tV-onh"/>
+                                <constraint firstItem="9h9-0b-KrO" firstAttribute="centerX" secondItem="ftI-ga-vpp" secondAttribute="centerX" id="IGe-ab-Zi9"/>
+                                <constraint firstItem="vME-WK-AJM" firstAttribute="top" secondItem="buo-8b-r2Y" secondAttribute="bottom" id="OkB-kC-uDw"/>
+                                <constraint firstItem="buo-8b-r2Y" firstAttribute="leading" secondItem="ftI-ga-vpp" secondAttribute="leading" constant="20" id="RL3-g9-8Xm"/>
+                                <constraint firstItem="NZm-uR-fku" firstAttribute="top" secondItem="vME-WK-AJM" secondAttribute="bottom" constant="60" id="UPZ-RX-3xn"/>
+                                <constraint firstAttribute="trailing" secondItem="vME-WK-AJM" secondAttribute="trailing" constant="10" id="Vop-PN-qwF"/>
+                                <constraint firstAttribute="trailing" secondItem="u11-cL-5hc" secondAttribute="trailing" constant="80" id="abu-Tt-RsM"/>
+                                <constraint firstAttribute="trailing" secondItem="buo-8b-r2Y" secondAttribute="trailing" constant="20" id="btY-dj-Pw7"/>
+                                <constraint firstItem="azq-En-El3" firstAttribute="centerX" secondItem="ftI-ga-vpp" secondAttribute="centerX" id="e4e-Nj-YLM"/>
+                                <constraint firstItem="9h9-0b-KrO" firstAttribute="top" secondItem="hJd-b4-P6j" secondAttribute="bottom" constant="15" id="e4q-J0-cdf"/>
+                                <constraint firstItem="Kdx-LU-XUh" firstAttribute="centerX" secondItem="ftI-ga-vpp" secondAttribute="centerX" id="gen-8w-rQg"/>
+                                <constraint firstItem="buo-8b-r2Y" firstAttribute="top" secondItem="u11-cL-5hc" secondAttribute="bottom" constant="50" id="ibu-na-J0C"/>
+                                <constraint firstItem="u11-cL-5hc" firstAttribute="top" secondItem="MMM-NV-pxe" secondAttribute="bottom" constant="15" id="kHe-y8-3kQ"/>
+                                <constraint firstItem="MMM-NV-pxe" firstAttribute="leading" secondItem="ftI-ga-vpp" secondAttribute="leading" constant="20" id="nt3-mk-7V1"/>
+                                <constraint firstItem="azq-En-El3" firstAttribute="top" secondItem="9h9-0b-KrO" secondAttribute="bottom" constant="35" id="qNd-Iq-rxf"/>
+                                <constraint firstItem="MMM-NV-pxe" firstAttribute="top" secondItem="ftI-ga-vpp" secondAttribute="top" constant="50" id="rP4-qY-3wp"/>
+                                <constraint firstItem="hJd-b4-P6j" firstAttribute="top" secondItem="NZm-uR-fku" secondAttribute="bottom" constant="120" id="uT9-Sh-x7S"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="ftI-ga-vpp" secondAttribute="bottom" id="1MH-cu-6jd"/>
+                        <constraint firstItem="ftI-ga-vpp" firstAttribute="leading" secondItem="2Rf-9m-90X" secondAttribute="leading" id="4PF-kT-njk"/>
+                        <constraint firstAttribute="trailing" secondItem="ftI-ga-vpp" secondAttribute="trailing" id="GRO-La-cTJ"/>
+                        <constraint firstItem="ftI-ga-vpp" firstAttribute="top" secondItem="2Rf-9m-90X" secondAttribute="top" id="pg2-J6-Lqb"/>
+                        <constraint firstItem="ftI-ga-vpp" firstAttribute="centerX" secondItem="2Rf-9m-90X" secondAttribute="centerX" id="qkZ-HW-tSB"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="Skb-pT-x9d"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="oT9-kM-sr0"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.094117647058823528" green="0.13725490196078433" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="2Rf-9m-90X" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="2nx-nX-CDP"/>
+                <constraint firstItem="2Rf-9m-90X" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Bwe-Tn-adq"/>
+                <constraint firstItem="2Rf-9m-90X" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="oDk-A1-ruz"/>
+                <constraint firstItem="2Rf-9m-90X" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="qkW-jo-dRg"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="113.83928571428571"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="FBicon" width="48" height="48"/>
+        <image name="GoogleIcon" width="32" height="32"/>
+        <image name="TwitterIcon" width="35" height="35"/>
+    </resources>
+</document>

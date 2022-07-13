@@ -19,7 +19,7 @@ final class OnBoardingVC: UIViewController {
     // MARK: - ViewController Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        skipBtn.underline(text: "Skip".localized())
+        skipBtn.underline()
         mockData()
         setupCollectionView()
     }
@@ -38,10 +38,10 @@ final class OnBoardingVC: UIViewController {
     
     // MARK: - Mock Data
     func mockData() {
-        onBoardingArr.append(OnBoarding(img: UIImage(named: "OnBoarding1")!, clarifyingQuestion: "So Confused, Don't know how to get your Orders?".localized(), clarifyingAnswer: "Example Text1 Example Text1 Example Text1 Example Text1 Example Text1 Example Text1 Example Text1 Example Text1".localized()))
-        onBoardingArr.append(OnBoarding(img: UIImage(named: "OnBoarding2")!, clarifyingQuestion: "How could you think and Shayal is there?".localized(), clarifyingAnswer: "Example Text2 Example Text2 Example Text2 Example Text2 Example Text2 Example Text2 Example Text2 Example Text2".localized()))
-        onBoardingArr.append(OnBoarding(img: UIImage(named: "OnBoarding3")!, clarifyingQuestion: "Choose everything you want from anywhere and just set your location".localized(), clarifyingAnswer: "Example Text3 Example Text3 Example Text3 Example Text3 Example Text3 Example Text3 Example Text3 Example Text3".localized()))
-        onBoardingArr.append(OnBoarding(img: UIImage(named: "OnBoarding4")!, clarifyingQuestion: "Our delivery guy will get it very Quicklyyy".localized(), clarifyingAnswer: "Example Text4 Example Text4 Example Text4 Example Text4 Example Text4 Example Text4 Example Text4 Example Text4".localized()))
+        onBoardingArr.append(OnBoarding(img: UIImage(named: "OnBoarding1")!, clarifyingQuestion: "So Confused, Don't know how to get your Orders?".localized(), clarifyingAnswer: "Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text".localized()))
+        onBoardingArr.append(OnBoarding(img: UIImage(named: "OnBoarding2")!, clarifyingQuestion: "How could you think and Shayal is there?".localized(), clarifyingAnswer: "Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text".localized()))
+        onBoardingArr.append(OnBoarding(img: UIImage(named: "OnBoarding3")!, clarifyingQuestion: "Choose everything you want from anywhere and just set your location".localized(), clarifyingAnswer: "Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text".localized()))
+        onBoardingArr.append(OnBoarding(img: UIImage(named: "OnBoarding4")!, clarifyingQuestion: "Our delivery guy will get it very Quicklyyy".localized(), clarifyingAnswer: "Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text".localized()))
     }
 }
 

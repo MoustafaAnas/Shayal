@@ -36,7 +36,6 @@ extension AddOrderVC: CLLocationManagerDelegate {
         geoCoder.reverseGeocodeLocation(location) { [weak self] places, error in
             guard let self = self else{return}
             guard let place = places?.first, error == nil else{return}
-            
             self.deliveryToTextField.text = "\(place.name ?? "") / \(place.locality ?? "") / \(place.administrativeArea ?? "") / \(place.country ?? "")"
         }
     }

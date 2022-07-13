@@ -1,0 +1,27 @@
+
+/* Class = "UITextField"; placeholder = "Weight"; ObjectID = "27a-rO-49P"; */
+"27a-rO-49P.placeholder" = "الوزن التقریبي";
+
+/* Class = "UITextField"; placeholder = "Package Type"; ObjectID = "380-vO-Tf8"; */
+"380-vO-Tf8.placeholder" = "نوع الحمولة";
+
+/* Class = "UITextField"; placeholder = "Deliver To"; ObjectID = "BFr-pJ-Buk"; */
+"BFr-pJ-Buk.placeholder" = "اسم المدینة المراد التوصیل لھا";
+
+/* Class = "UITextField"; placeholder = "Deliver From"; ObjectID = "FKd-3I-eRJ"; */
+"FKd-3I-eRJ.placeholder" = "اسم المدینة المتواجد بھا";
+
+/* Class = "UITextField"; placeholder = "Vehicle Model"; ObjectID = "MST-yG-KaV"; */
+"MST-yG-KaV.placeholder" = "موديل المركبة";
+
+/* Class = "UITextField"; placeholder = "Voucher"; ObjectID = "XbY-Np-9a6"; */
+"XbY-Np-9a6.placeholder" = "الكوبون";
+
+/* Class = "UIButton"; configuration.title = "Order"; ObjectID = "bNp-02-TVE"; */
+"bNp-02-TVE.configuration.title" = "إرســـال";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "bNp-02-TVE"; */
+"bNp-02-TVE.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Vehicle Type"; ObjectID = "wVf-Fq-j9F"; */
+"wVf-Fq-j9F.placeholder" = "نوع المركبة";

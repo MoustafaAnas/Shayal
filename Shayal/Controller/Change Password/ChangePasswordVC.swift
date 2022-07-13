@@ -22,14 +22,12 @@ final class ChangePasswordVC: UIViewController {
     // MARK: - ViewController Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        localized()
         customizeBlurViewAction()
         setupTextField()
     }
     
     override func viewDidLayoutSubviews() {
         saveBtn.setGradientBackground(colorOne: AppColor.btnGradientColor, colorTwo: AppColor.mainColor)
-        saveBtn.titleLabel?.font = UIFont(name: "Almarai-Bold", size: 15)
     }
 
     // MARK: - Buttons Actions

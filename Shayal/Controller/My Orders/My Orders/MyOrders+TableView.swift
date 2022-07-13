@@ -107,10 +107,11 @@ extension MyOrdersVC: UITableViewDelegate, UITableViewDataSource {
     // cancel order after clicking on cancelOrderBtn
     @objc func cancelOrderBtnAction(sender: UIButton){
         let indexpath = IndexPath(row: sender.tag, section: 0)
-        self.myOrdersTV.beginUpdates()
-        self.ordersCellItems.remove(at: indexpath.row)
-        self.myOrdersTV.deleteRows(at: [indexpath], with: .top)
-        self.myOrdersTV.endUpdates()
         myOrdersTV.reloadData()
+        myOrdersTV.beginUpdates()
+        ordersCellItems.remove(at: indexpath.row)
+        myOrdersTV.deleteRows(at: [indexpath], with: .automatic)
+        myOrdersTV.endUpdates()
+        noDataToDisplayMsg(tableview: myOrdersTV, tableViewDataArrCount: ordersCellItems.count, tintColor: .lightGray, msg: "Empty")
     }
 }

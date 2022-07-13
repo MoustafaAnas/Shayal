@@ -11,7 +11,6 @@ extension EditProfileVC: UIPickerViewDelegate, UIPickerViewDataSource {
 
     // MARK: - Setup PickerView
     func setupPickerView() {
-        view.addSubview(dataContainerPickerView)
 
         dataContainerPickerView.delegate = self
         dataContainerPickerView.dataSource = self

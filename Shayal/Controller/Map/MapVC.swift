@@ -36,7 +36,6 @@ final class MapVC: UIViewController {
         let label = UILabel()
         label.textColor = AppColor.mainColor
         label.font = UIFont(name: "Almarai-Regular", size: 12)
-        label.setIcon(text: "Al-mansoura - Samia El-gamal".localized(), leftIcon: UIImage(named: "MsgStateImg")?.withTintColor(AppColor.mainColor))
         return label
     }()
     

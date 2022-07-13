@@ -22,7 +22,7 @@ final class ActiveOrdersCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         cancelOrderBtn.titleLabel?.font = UIFont(name: "Almarai-Bold", size: 12)
-        cancelOrderBtn.underline(text: "Cancel Order".localized())
+        //cancelOrderBtn.underline()
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

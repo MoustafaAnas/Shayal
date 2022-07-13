@@ -20,7 +20,6 @@ final class AddReportVC: UIViewController {
     // MARK: - ViewController Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        localized()
         customizeBlurViewAction()
         userNameTxtField.textFieldTracer()
         setupTextView()
@@ -28,7 +27,6 @@ final class AddReportVC: UIViewController {
     
     override func viewDidLayoutSubviews() {
         reportBtn.setGradientBackground(colorOne: AppColor.btnGradientColor, colorTwo: AppColor.mainColor)
-        reportBtn.titleLabel?.font = UIFont(name: "Almarai-Bold", size: 15)
     }
 
     // MARK: - Buttons Actions

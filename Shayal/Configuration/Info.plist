@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string>Shayal needs your location to deliver your order and to be able to track your order</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string></string>
+	<string>Shayal needs your location to deliver your order and to be able to track your order</string>
 	<key>UIUserInterfaceStyle</key>
 	<string>Light</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string></string>
+	<string>Shayal needs to use photo library to get your profile picture</string>
 	<key>NSCameraUsageDescription</key>
-	<string></string>
+	<string>Shayal needs to use camera to get your profile picture</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Almarai-Regular.ttf</string>

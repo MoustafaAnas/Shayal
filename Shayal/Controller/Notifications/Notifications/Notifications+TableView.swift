@@ -19,10 +19,10 @@ extension NotificationsVC: UITableViewDelegate, UITableViewDataSource {
     }
     
     func mockData() {
-        notificationsCellItem.append(NotificationsDataModel(userName: "Ahmed Mohamed".localized(), notificationMsg: "Ahmed Received your order and offered you a price".localized(), isCompleted: false))
-        notificationsCellItem.append(NotificationsDataModel(userName: "Mohamed Ahmed".localized(), notificationMsg: "Mohamed Received your order and offered you a price".localized(), isCompleted: false))
+        notificationsCellItem.append(NotificationsDataModel(userName: "Ahmed Mohamed".localized(), notificationMsg: "Ahmed Mohamed".localized() + " Received your order and offered you a price".localized(), isCompleted: false))
+        notificationsCellItem.append(NotificationsDataModel(userName: "Mohamed Ahmed".localized(), notificationMsg: "Mohamed Ahmed".localized() + " Received your order and offered you a price".localized(), isCompleted: false))
         notificationsCellItem.append(NotificationsDataModel(userName: "Ahmed Joe".localized(), notificationMsg: "Rate our delivery".localized(), isCompleted: true))
-        notificationsCellItem.append(NotificationsDataModel(userName: "Joe Mohamed".localized(), notificationMsg: "Rate our delivery", isCompleted: true))
+        notificationsCellItem.append(NotificationsDataModel(userName: "Joe Mohamed".localized(), notificationMsg: "Rate our delivery".localized(), isCompleted: true))
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

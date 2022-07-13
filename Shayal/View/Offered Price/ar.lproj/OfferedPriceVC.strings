@@ -1,0 +1,45 @@
+
+/* Class = "UILabel"; text = "10 K.M"; ObjectID = "2Cr-r5-acT"; */
+"2Cr-r5-acT.text" = "10 كيلومتر";
+
+/* Class = "UILabel"; text = "Distance by K.M"; ObjectID = "6yE-0f-DdA"; */
+"6yE-0f-DdA.text" = "المســــافة بالكیلومتر";
+
+/* Class = "UILabel"; text = "4.7"; ObjectID = "A0L-jq-WG9"; */
+"A0L-jq-WG9.text" = "4.7";
+
+/* Class = "UILabel"; text = "Delivery Rating"; ObjectID = "ASv-gD-I1Q"; */
+"ASv-gD-I1Q.text" = "التقييمــات السابقة";
+
+/* Class = "UILabel"; text = "Ahmed Mohamed Abdu"; ObjectID = "Asa-oF-p4U"; */
+"Asa-oF-p4U.text" = "أحمد محمد عبدة";
+
+/* Class = "UIButton"; configuration.title = "Refuse"; ObjectID = "BV3-P4-FeD"; */
+"BV3-P4-FeD.configuration.title" = "رفــــض";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "BV3-P4-FeD"; */
+"BV3-P4-FeD.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Approve"; ObjectID = "CN7-fY-J1g"; */
+"CN7-fY-J1g.configuration.title" = "مــوافقة";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "CN7-fY-J1g"; */
+"CN7-fY-J1g.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Offered Price"; ObjectID = "JBb-Cf-7hj"; */
+"JBb-Cf-7hj.text" = "عــــرض السعر";
+
+/* Class = "UILabel"; text = "50 R.S"; ObjectID = "NdF-sc-CpT"; */
+"NdF-sc-CpT.text" = "50 ريال";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Q5I-Ib-ofz"; */
+"Q5I-Ib-ofz.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "30 Min"; ObjectID = "aaV-4t-3rk"; */
+"aaV-4t-3rk.text" = "30 دقيقة";
+
+/* Class = "UILabel"; text = "Offered Price"; ObjectID = "cxV-sK-YHT"; */
+"cxV-sK-YHT.text" = "عــــرض السعر";
+
+/* Class = "UILabel"; text = "Time To Deliver"; ObjectID = "hFs-ko-lBo"; */
+"hFs-ko-lBo.text" = "وقـــت التوصیل";

@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; configuration.title = "Cancel"; ObjectID = "4Ua-MN-jg5"; */
+"4Ua-MN-jg5.configuration.title" = "إلغـــاء";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4Ua-MN-jg5"; */
+"4Ua-MN-jg5.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Logout"; ObjectID = "oXs-As-qik"; */
+"oXs-As-qik.configuration.title" = "تسجيل الخروج";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "oXs-As-qik"; */
+"oXs-As-qik.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Do you want to logout?"; ObjectID = "sea-kg-2io"; */
+"sea-kg-2io.text" = "هل تريد تسجيل الخروج؟";

@@ -20,7 +20,6 @@ final class onBoardingCVCell: UICollectionViewCell {
     // MARK: - Cell ViewController Cycle
     override func awakeFromNib() {
         super.awakeFromNib()
-        nextBtn.setImage(UIImage(systemName: "arrow.right".localized()), for: .normal)
     }
     
     func configureCell(item: OnBoarding) {

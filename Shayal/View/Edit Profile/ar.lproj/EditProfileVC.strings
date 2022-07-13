@@ -1,0 +1,30 @@
+
+/* Class = "UITextField"; placeholder = "Bank"; ObjectID = "6ZM-X0-gQk"; */
+"6ZM-X0-gQk.placeholder" = "اسم البنك";
+
+/* Class = "UITextField"; placeholder = "Change Password"; ObjectID = "DK6-Of-Ujl"; */
+"DK6-Of-Ujl.placeholder" = "تغيير كلمة المرور";
+
+/* Class = "UIButton"; configuration.title = "Save"; ObjectID = "Gi5-VN-gEX"; */
+"Gi5-VN-gEX.configuration.title" = "حفـــظ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Gi5-VN-gEX"; */
+"Gi5-VN-gEX.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Phone Number"; ObjectID = "NvA-it-kRY"; */
+"NvA-it-kRY.placeholder" = "رقم الجوال";
+
+/* Class = "UITextField"; placeholder = "Country"; ObjectID = "ZQy-k0-jpV"; */
+"ZQy-k0-jpV.placeholder" = "الدولة";
+
+/* Class = "UITextField"; placeholder = "Bank account number"; ObjectID = "jg2-HF-Sde"; */
+"jg2-HF-Sde.placeholder" = "رقم الحساب البنكي";
+
+/* Class = "UITextField"; placeholder = "City"; ObjectID = "oWp-gn-w2l"; */
+"oWp-gn-w2l.placeholder" = "المدینة";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "y2I-vj-5pi"; */
+"y2I-vj-5pi.placeholder" = "الاسم";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "z8r-PB-sjK"; */
+"z8r-PB-sjK.normalTitle" = "Button";

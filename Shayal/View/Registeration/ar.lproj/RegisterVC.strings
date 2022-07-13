@@ -1,0 +1,39 @@
+
+/* Class = "UITextField"; placeholder = "Country"; ObjectID = "3fc-44-7XE"; */
+"3fc-44-7XE.placeholder" = "الدولة";
+
+/* Class = "UIButton"; configuration.title = "Sign in"; ObjectID = "6LI-xk-ZbS"; */
+"6LI-xk-ZbS.configuration.title" = "تسجيل الدخول";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "6LI-xk-ZbS"; */
+"6LI-xk-ZbS.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "Ad2-GB-MQp"; */
+"Ad2-GB-MQp.placeholder" = "كلمة المرور";
+
+/* Class = "UIButton"; configuration.title = "Register"; ObjectID = "TtA-d9-sIX"; */
+"TtA-d9-sIX.configuration.title" = "تأكید";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "TtA-d9-sIX"; */
+"TtA-d9-sIX.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "City"; ObjectID = "XpL-y2-9ts"; */
+"XpL-y2-9ts.placeholder" = "المدینة";
+
+/* Class = "UILabel"; text = "Please login to save your search result and your orders and surely for more fun!"; ObjectID = "aC0-Xz-Dxb"; */
+"aC0-Xz-Dxb.text" = "قــم بسجيل دخولك من أجل حفظ نتائجكم البحثية وطلبــاتكم وبالطبع لمتعــة أكثر!";
+
+/* Class = "UILabel"; text = "Welcome To Shayal App"; ObjectID = "aeS-Wn-Ai3"; */
+"aeS-Wn-Ai3.text" = "أهـــلا بك في تطبيق شيـــال";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "aph-D1-ySu"; */
+"aph-D1-ySu.placeholder" = "الاسم";
+
+/* Class = "UILabel"; text = "Have Account Already? "; ObjectID = "jsh-WY-BHe"; */
+"jsh-WY-BHe.text" = "لديك حساب بالفعل؟ ";
+
+/* Class = "UITextField"; placeholder = "Confirm Password"; ObjectID = "mnp-B7-uiE"; */
+"mnp-B7-uiE.placeholder" = "تأكید كلمة المرور";
+
+/* Class = "UITextField"; placeholder = "Phone Number"; ObjectID = "v61-1f-H89"; */
+"v61-1f-H89.placeholder" = "رقم الجوال";

@@ -16,7 +16,7 @@ extension EditProfileVC {
         if checknameValidation() && checkPhoneNumberValidation() && checkBankValidation() && checkBankAccountNumberValidation() && checkCountryValidation() && checkCityValidation() {
             showIndicator(message: "Loading...".localized(), messageTopMargin: 20, animationType: .ballRotateChase)
             navigationController?.popViewController(animated: true)
-            FTIndicator.showSuccess(withMessage: "Profile Info Updated Successfully")
+            FTIndicator.showSuccess(withMessage: "Profile Info Updated Successfully".localized())
             hideIndicator()
         }
     }

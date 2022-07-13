@@ -13,13 +13,13 @@ extension EditProfileVC: UITextFieldDelegate {
     // MARK: - Setup TextFields
     func setupTextField() {
        
-        nameTxtField.attributedPlaceholder = NSAttributedString(string: "Name".localized(), attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
-        phoneNumberTxtField.attributedPlaceholder = NSAttributedString(string: "Phone Number".localized(), attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
-        countryTxtField.attributedPlaceholder = NSAttributedString(string: "Country".localized(), attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
-        cityTxtField.attributedPlaceholder = NSAttributedString(string: "City".localized(), attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
-        bankTxtField.attributedPlaceholder = NSAttributedString(string: "Bank".localized(), attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
-        bankAccountTxtField.attributedPlaceholder = NSAttributedString(string: "Bank Account Number".localized(), attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
-        changePasswordTxtField.attributedPlaceholder = NSAttributedString(string: "Change Password".localized(), attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
+        nameTxtField.placeHolderColor(color: .white)
+        phoneNumberTxtField.placeHolderColor(color: .white)
+        countryTxtField.placeHolderColor(color: .white)
+        cityTxtField.placeHolderColor(color: .white)
+        bankTxtField.placeHolderColor(color: .white)
+        bankAccountTxtField.placeHolderColor(color: .white)
+        changePasswordTxtField.placeHolderColor(color: .white)
         
         nameTxtField.setPadding()
         phoneNumberTxtField.setPadding()

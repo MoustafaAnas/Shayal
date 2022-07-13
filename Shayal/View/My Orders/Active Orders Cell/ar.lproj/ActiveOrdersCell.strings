@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "Car Transport"; ObjectID = "7jJ-CG-Rlv"; */
+"7jJ-CG-Rlv.text" = "Car Transport";
+
+/* Class = "UILabel"; text = "Ahmed Mohamed"; ObjectID = "7vS-s9-yt3"; */
+"7vS-s9-yt3.text" = "Ahmed Mohamed";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "PI7-bv-AmK"; */
+"PI7-bv-AmK.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Cancel"; ObjectID = "kTq-O2-ozt"; */
+"kTq-O2-ozt.configuration.title" = "الغاء الطلب";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "kTq-O2-ozt"; */
+"kTq-O2-ozt.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "50 R.S"; ObjectID = "sgP-le-S86"; */
+"sgP-le-S86.text" = "50 R.S";
+
+/* Class = "UILabel"; text = "Heading to receive"; ObjectID = "tzq-5Y-33d"; */
+"tzq-5Y-33d.text" = "Heading to receive";

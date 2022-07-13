@@ -10,6 +10,7 @@ import UIKit
 final class OfferedPriceVC: UIViewController {
 
     // MARK: - Identifying Vars
+    @IBOutlet weak var containerView: UIView!
     @IBOutlet weak var blurView: UIVisualEffectView!
     @IBOutlet weak var offeredPriceVCTitleLbl: UILabel!
     @IBOutlet weak var deliveryProfilePic: UIImageView!
@@ -28,12 +29,12 @@ final class OfferedPriceVC: UIViewController {
     // MARK: - ViewController Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        localized()
         customizeBlurViewAction()
     }
     
     override func viewDidLayoutSubviews() {
         approveOfferBtn.setGradientBackground(colorOne: AppColor.btnGradientColor, colorTwo: AppColor.mainColor)
+        containerView.roundCorners(corners: [.topLeft, .topRight], radius: 30)
         approveOfferBtn.titleLabel?.font = UIFont(name: "Almarai-Bold", size: 15)
         refuseOfferBtn.titleLabel?.font = UIFont(name: "Almarai-Bold", size: 15)
     }

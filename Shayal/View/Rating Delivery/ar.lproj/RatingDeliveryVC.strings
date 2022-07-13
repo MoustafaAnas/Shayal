@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "AEn-9F-Dfn"; */
+"AEn-9F-Dfn.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Rate"; ObjectID = "SQV-id-uug"; */
+"SQV-id-uug.configuration.title" = "تقييم";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "SQV-id-uug"; */
+"SQV-id-uug.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Ahmed Mohamed Abdu"; ObjectID = "VbV-90-ONE"; */
+"VbV-90-ONE.text" = "أحمد محمد عبدة";
+
+/* Class = "UILabel"; text = "Rating Delivery"; ObjectID = "gWj-kR-xwh"; */
+"gWj-kR-xwh.text" = "تقييم مندوب الشحن";

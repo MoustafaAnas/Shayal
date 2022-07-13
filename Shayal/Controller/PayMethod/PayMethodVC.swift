@@ -7,6 +7,7 @@
 
 import UIKit
 import Lottie
+import FTIndicator
 
 final class PayMethodVC: UIViewController {
 
@@ -21,18 +22,18 @@ final class PayMethodVC: UIViewController {
     @IBOutlet weak var payWithTitle2Lbl: UILabel!
     @IBOutlet weak var creditCardTitleLbl: UILabel!
     @IBOutlet weak var cashTitleLbl: UILabel!
+    @IBOutlet weak var creditCardView: UIStackView!
+    @IBOutlet weak var cashView: UIStackView!
     
     // MARK: - ViewController Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        localized()
-        customizeBlurViewAction()
         lottieAnimation()
+        setupGestureRecognizer()
     }
     
     override func viewDidLayoutSubviews() {
         nextBtn.setGradientBackground(colorOne: AppColor.btnGradientColor, colorTwo: AppColor.mainColor)
-        nextBtn.titleLabel?.font = UIFont(name: "Almarai-Bold", size: 15)
     }
 
     // MARK: - Buttons Actions
@@ -57,7 +58,7 @@ final class PayMethodVC: UIViewController {
         }
         
         else {
-            
+            FTIndicator.showInfo(withMessage: ("Please, Choose a way to pay".localized()))
         }
     }
     
@@ -66,16 +67,4 @@ final class PayMethodVC: UIViewController {
         animationView.play()
         animationView.loopMode = .loop
     }
-    
-    func customizeBlurViewAction() {
-        let gesture = UITapGestureRecognizer(target: self, action: #selector(didCancelPayMethod))
-        gesture.numberOfTapsRequired = 1
-        gesture.numberOfTapsRequired = 1
-        blurView.addGestureRecognizer(gesture)
-    }
-    
-    @objc func didCancelPayMethod() {
-        self.dismiss(animated: true)
-    }
-
 }

@@ -7,50 +7,229 @@
 */
 
 // OnBoarding
-"Skip" = "تخطي";
-"arrow.right" = "arrow.left";
-
 "So Confused, Don't know how to get your Orders?" = "مــرة محتــار ما تدري كيف تجيب طلباتك؟";
-"Example Text1 Example Text1 Example Text1 Example Text1 Example Text1 Example Text1 Example Text1 Example Text1" = "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء";
-
 "How could you think and Shayal is there?" = "شدعــوة تفكر وشيــال موجود؟";
-"Example Text2 Example Text2 Example Text2 Example Text2 Example Text2 Example Text2 Example Text2 Example Text2" = "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء";
-
 "Choose everything you want from anywhere and just set your location" = "اختــر كل اللي تبغاه من أي مكان وحدد موقعك بس";
-"Example Text3 Example Text3 Example Text3 Example Text3 Example Text3 Example Text3 Example Text3 Example Text3" = "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء";
-
 "Our delivery guy will get it very Quicklyyy" = "ومندوبنا رح يكون عندك صــــاروووخ";
-"Example Text4 Example Text4 Example Text4 Example Text4 Example Text4 Example Text4 Example Text4 Example Text4" = "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء";
+
+"Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text" = "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء";
+
 
 // Login
-"Welcome To Shayal App" = "أهـــلا بك في تطبيق شيـــال";
-
-"Please login to save your search result and your orders and surely for more fun!" = "قــم بسجيل دخولك من أجل حفظ نتائجكم البحثية وطلبــاتكم وبالطبع لمتعــة أكثر";
-
-"Phone Number is invalid" = "الرقم الذي أدخلتـــه غير صحــيح";
-
-"Incorrect Password" = "كلمة المرور غير صحيحة";
-
-"Sign up By" = "أو سجــل عن طــريق";
-
-"Don't Have Account?" = "ليس لديــك حساب ؟";
-
-"Login" = "تسجيـــل";
-
-"Sign up as Delivery" = "التسجيل كمندوب";
-
-"Forgot Password?" = "نسيــت كلمة المرور؟";
-
-"Sign up" = "تسجيل جديد";
-
-"Phone Number" = "رقم الجوال";
-
-"Password" = "كلمة المرور";
-
-"Loading..." = "جاري التحميل٠٠٠";
-
+"Loading..." = "جاري التحميل...";
 "Login Successfully" = "تم تسجيل الدخول بنجاح";
-
 "Phone Number or Password is not Correct" = "رقم الهاتف او كلمة المرور غير صحيحة";
-
 "Something went wrong" = "حدث خطأ ما";
+
+
+// Forgot Password
+"Forgot Password" = "نسيــت كلمة المرور";
+"Verification code has been sent to the number you entered" = "تم إرسال رمز التحقق إلى الرقم الذي قمت بإدخــاله";
+
+
+// Activation Code
+"ِِActivation Code" = "كود الإسترجاع";
+"Code Verfied" = "تم التحقق بنجاح";
+"Enter Verfication Code" = "برجاء ادخال رمز التحقيق";
+
+
+// New Password
+"New Password" = "كلمة المرور الجدیدة";
+"Enter Valid New Password" = "برجاء ادخال كلمة مرور اقوى";
+"Yor new password does not match confirm password" = "تأكيد كلمة المرور لا تتطابق مع كلمة المرور المدخلة";
+"Password Changed Successfully" = "تم تغيير كلمة المرور بنجاح";
+"chevron.left" = "chevron.right";
+
+
+// Sign up
+"Sign up" = "تسجيل جديد";
+"Registerd Successfully" = "تم التسجيل بنجاح";
+"Enter your Name" = "برجاء ادخال الاسم";
+"Enter your Phone Number" = "برجاء ادخال رقم الهاتف";
+"Enter your Country Name" = "برجاء ادخال الدولة";
+"Enter your City Name" = "برجاء ادخال المدينة";
+"Enter Valid Password" = "برجاء ادخال كلمة مرور أقوى";
+"Enter Confirm Password" = "برجاء ادخال تأكيد كلمة المرور";
+"Confirm Password does not match your password" = "تأكيد كلمة المرور لا تتطابق مع كلمة المرور المدخلة";
+
+
+// TabBar
+"Home" = "الرئيسية";
+"My Orders" = "طلباتي";
+"Chat" = "المحادثات";
+"More" = "المزيـــــد";
+
+
+// Home
+"Track Order" = "تتبع الحمولة";
+"Alert" = "تنبية";
+"Close" = "اغلاق";
+"Settings" = "الاعدادات";
+
+"Authorization Restricted" = "الخدمة مقيدة";
+"Please Enable Access to Location" = "الرجاء السماح بالوصول إلى الموقع";
+"Please Enable Location Service" = "الرجاء تفعيل خدمات الموقع";
+
+"New Offer?" = "عرض جديد؟";
+"New Offer2?" = "عرض جديد٢؟";
+"New Offer3?" = "عرض جديد٣؟";
+"New Offer4?" = "عرض جديد٤؟";
+"Example Text Example Text" = "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا  عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء";
+
+"Delivery" = "المندوب";
+"Me" = "أنا";
+
+
+// Notifications
+"Notifications" = "الإشعــارات";
+"No new notifications yet" = "لا يوجد اشعارات جديدة بعد";
+
+"Ahmed Mohamed" = "أحمد محمد";
+"Mohamed Ahmed" = "محمد أحمد";
+"Ahmed Joe" = "أحمد يوسف";
+"Joe Mohamed" = "يوسف محمد";
+
+" Received your order and offered you a price" = " استقبل طلبك وعرض عليك سعر";
+"Rate our delivery" = "قم بتقييم المندوب الخاص بطلبكم";
+
+
+// Rating Delivery
+"Thank you for helping us improving our services quality" = "شكرا لمساعدتنا في تحسين جودة خدماتنا";
+"Please rate our Delivery" = "برجاء تقييم مندوب التوصيل";
+"Rate Delivery" = "نص التقييم";
+
+
+// Add Order
+"Add New Order" = "إضافة طلب جدید";
+"Get Package From" = "احضر الحمولة من";
+"Enter your order location" = "أدخل موقع الحمولة";
+"Enter your location" = "ادخل عنوانك";
+"Enter package type" = "ادخل نوع الحمولة";
+"Enter vehicle model" = "ادخل موديل المركبة";
+"Enter package weight" = "ادخل وزن الحمولة";
+"Enter vehicle type" = "ادخل نوع المركبة";
+"Ordered Successfully, You will recive offer from our delivery soon" = "تم الطلب بنجاح، ستتلقى عرضًا من احد مندوبي التوصيل قريبًا";
+
+
+// My Orders
+"My Orders" = "طلبــــاتي";
+"Pending Orders" = "طلبات معلقة";
+"Active Orders" = "طلبات نشطــة";
+"Done Orders" = "طلبات منتھیة";
+"left" = "right";
+"right" = "left";
+"Empty" = "لا توجد طلبات";
+"Preparing" = "جاري الإعداد";
+"arrow.right" = "arrow.left";
+"Kilo" = "كيلو";
+"S.R" = "ريال";
+
+"Ahmed Mohamed" = "أحمد محمد";
+"Cairo" = "القاهرة";
+"Masnoura" = "المنصورة";
+"Light" = "نقل خفيف";
+"50" = "٥٠";
+"Car" = "سيــارة نقل";
+"Mohamed Mahmoud" = "محمد محمود";
+"Alex" = "الاسكندرية";
+"60" = "٦٠";
+"Moustafa Mohamed" = "مصطفى محمد";
+"70" = "٧٠";
+"Ahmed Mohamed" = "أحمد محمد";
+"40" = "٤٠";
+"Heading to receive" = "متوجه الى الاستلام";
+"Ahmed Mahmoud" = "أحمد محمود";
+"Moustafa Mohamed" = "مصطفى محمد";
+"Ahmed Anas" = "أحمد أنس";
+"80" = "٨٠";
+
+
+// Invoice
+"Invoice" = "الفاتورة";
+
+
+// Pay Method
+"Please, Choose a way to pay" = "برجاء اختيار طريقة للدفع";
+
+
+// Chat
+"Ahmed Moustafa" = "أحمد مصطفى";
+"Mahmoud Mohamed" = "محمود محمد";
+"Youssef Mohamed" = "يوسف محمد";
+"Example text Example text Example text" = "هذا النص هو مثال لنص يمكن أن يستبدل";
+
+
+// Messages
+"Heading to get your order" = "متوجه الى الاستلام";
+"chevron.left" = "chevron.right";
+"Pin Chat" = "تثبيت المحادثة";
+"Delete Chat" = "حذف المحادثة";
+"Camera" = "الكاميرا";
+"Photo Library" = "مكتبة الصور";
+"Cancel" = "الغاء";
+"There is no chat Messages" = "لايوجد رسائل";
+
+
+// Map
+"Address To Deliver" = "عنـــوان التوصيل";
+"Ahmed Mohamed Joe" = "أحمد محمد يوسف";
+"Select" = "تحديد";
+
+
+// More
+"Reports" = "الشكــــاوى";
+"Contact Us" = "تواصل معنا";
+"Who Are We" = "من نحن";
+"Terms and Conditions" = "الشروط والأحكام";
+"Language" = "اللغــــــة";
+
+
+// Profile
+"Profile" = "الملف الشخصي";
+
+
+// Edit Profile
+"Edit Profile" = "تعديل الملف الشخصي";
+"Profile Info Updated Successfully" = "تم تحديث بيناتك الشخصية";
+"Please fill your name field" = "برجاء ادخال الاسم";
+"Please fill your phone number field" = "برجاء ادخال رقم الجوال";
+"Please choose your bank" = "برجاء ادخال اسم البنك";
+"Please fill your bank account number field" = "برجاء ادخال رقم الحساب البنكي";
+"Please choose your country" = "برجاء ادخال البلد";
+"Please choose your city" = "برجاء ادخال المدينة";
+
+
+// Change Password
+"Password Changed Successfully" = "تم تغيير كلمة المرور";
+"Enter your new password" = "ادخل كلمة المرور الجديدة";
+"Enter valid new password" = "برجاء ادخال كلمة مرور اقوى";
+"Enter Confirm Password" = "  ادخل كلمة المرور الجديدة مرة اخرى";
+"Confirm Password does not match your password" = "تأكيد كلمة المرور لا تتطابق مع كلمة المرور المدخلة";
+
+
+// Reports
+"Reports" = "الشكـــاوى";
+"Delay in receiving orders..." = "التأخر في استلام الطلبات...";
+"Item Is Missing..." = "الحمولة غير كاملة...";
+"Report Text" = "نص الشكوى";
+"Please enter your complain, to solve it as fast as possible" = "الرجاء إدخال شكواك لحلها في أسرع وقت ممكن";
+"We recieved your complain, and we will contact you soon with the latest updates" = "استلمنا شكواك وسنتواصل معك قريبًا لإطلاعك على آخر المستجدات";
+
+
+// Contact Us
+"Contact Us" = "تواصل معنا";
+
+
+// Who Are We
+"Who Are We" = "من نحن";
+
+
+// Terms and Conditions
+"Terms and Conditions" = "الشروط والأحكام";
+
+
+// Change Language
+"English is your current language, please choose another one" = "اللغة العربية هي لغتك الحالية، يرجى اختيار لغة أخرى";
+"Restart Application" = "برجاء اعادة تشغيل التطبيق";
+"To change language you need to reopen the application" = "لتغيير اللغة تحتاج إلى إعادة فتح التطبيق";
+"Close" = "اغلاق";

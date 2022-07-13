@@ -12,6 +12,7 @@ extension MapVC: MKMapViewDelegate {
     // MARK: - Setup Map
     func setupMapDelegates() {
         mapView.delegate = self
+        setupHeadingLocationLbl()
     }
     
     func drawDirectionFromUserLocationToDeliveryLocation() {
@@ -110,6 +111,17 @@ extension MapVC: MKMapViewDelegate {
                 self.getOrderFromText = "\(place.name ?? "") / \(place.locality ?? "") / \(place.administrativeArea ?? "") / \(place.country ?? "")"
                 print(self.getOrderFromText)
             }
+        }
+    }
+    
+    func setupHeadingLocationLbl() {
+        guard let location = locationManager.location else{return}
+        let geoCoder = CLGeocoder()
+        geoCoder.reverseGeocodeLocation(location) { [weak self] places, error in
+            guard let self = self else{return}
+            guard let place = places?.first, error == nil else{return}
+            
+            self.addressLabel.setIcon(text: "\(place.locality ?? "") - \(place.name ?? "")", leftIcon: UIImage(named: "MsgStateImg")?.withTintColor(AppColor.mainColor))
         }
     }
 }

@@ -26,7 +26,7 @@ final class RegisterVC: UIViewController {
     var currentIndex = 0
     
     var countryPickerViewArr = ["Egypt".localized(), "Morocco".localized(), "Qatar".localized()]
-    var cityPickerViewArr = ["Mansoura".localized(), "Cairo".localized(), "Alex".localized(), "Aswan".localized(), "Giza".localized()]
+    var cityPickerViewArr = ["Masnoura".localized(), "Cairo".localized(), "Alex".localized(), "Aswan".localized(), "Giza".localized()]
     var pickerViewArr = [String]()
     
     // MARK: - ViewController Cycle
@@ -35,14 +35,13 @@ final class RegisterVC: UIViewController {
         title  = "Sign up".localized()
         navigationItem.backButtonTitle = ""
 
-        localized()
         setupTextField()
         setupPickerView()
     }
 
     override func viewWillAppear(_ animated: Bool) {
         navigationController?.isNavigationBarHidden = false
-        signinBtn.underline(text: "Sign in".localized())
+        signinBtn.underline()
     }
     
     override func viewDidLayoutSubviews() {

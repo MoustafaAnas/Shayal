@@ -24,27 +24,27 @@
                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="asK-CZ-eL7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                    </imageView>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OnBoarding1" translatesAutoresizingMaskIntoConstraints="NO" id="iNz-g1-Vba">
-                        <rect key="frame" x="0.0" y="80" width="414" height="427"/>
+                        <rect key="frame" x="0.0" y="30" width="414" height="430"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="430" id="HoK-0B-dda"/>
+                        </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Example Text" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dHZ-HU-I4w">
-                        <rect key="frame" x="20" y="537" width="374" height="16"/>
+                        <rect key="frame" x="20" y="480" width="374" height="16"/>
                         <fontDescription key="fontDescription" name="Almarai-Bold" family="Almarai" pointSize="14"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZk-6I-oor">
-                        <rect key="frame" x="20" y="563" width="374" height="40.5"/>
+                        <rect key="frame" x="20" y="506" width="374" height="40.5"/>
                         <string key="text">Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text Example Text </string>
                         <fontDescription key="fontDescription" name="Almarai-Regular" family="Almarai" pointSize="12"/>
                         <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ipr-8r-hhI">
-                        <rect key="frame" x="172" y="623.5" width="70" height="70"/>
+                        <rect key="frame" x="172" y="566.5" width="70" height="70"/>
                         <color key="backgroundColor" red="0.1019607843" green="0.76862745099999996" blue="0.71372549019999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="70" id="6XM-8G-UOI"/>
@@ -62,23 +62,18 @@
                 </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="TZk-6I-oor" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="0Qr-Es-qmf"/>
-                <constraint firstAttribute="trailing" secondItem="asK-CZ-eL7" secondAttribute="trailing" id="1f0-d4-xg4"/>
                 <constraint firstAttribute="trailing" secondItem="TZk-6I-oor" secondAttribute="trailing" constant="20" id="1zR-nu-45n"/>
-                <constraint firstItem="asK-CZ-eL7" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="6X2-zB-mBy"/>
-                <constraint firstItem="iNz-g1-Vba" firstAttribute="height" secondItem="asK-CZ-eL7" secondAttribute="height" multiplier="0.476429" id="6mD-ah-WYF"/>
-                <constraint firstAttribute="bottom" secondItem="asK-CZ-eL7" secondAttribute="bottom" id="9q2-Ac-Gww"/>
                 <constraint firstItem="ipr-8r-hhI" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="BEv-Aa-IXW"/>
                 <constraint firstItem="TZk-6I-oor" firstAttribute="top" secondItem="dHZ-HU-I4w" secondAttribute="bottom" constant="10" id="Im3-NJ-SeR"/>
-                <constraint firstItem="dHZ-HU-I4w" firstAttribute="top" secondItem="iNz-g1-Vba" secondAttribute="bottom" constant="30" id="JL2-ge-Xza"/>
-                <constraint firstItem="iNz-g1-Vba" firstAttribute="width" secondItem="asK-CZ-eL7" secondAttribute="height" multiplier="207:448" id="NVp-0E-KcN"/>
+                <constraint firstItem="dHZ-HU-I4w" firstAttribute="top" secondItem="iNz-g1-Vba" secondAttribute="bottom" constant="20" id="JL2-ge-Xza"/>
                 <constraint firstAttribute="trailing" secondItem="iNz-g1-Vba" secondAttribute="trailing" id="OiU-dg-3b6"/>
                 <constraint firstItem="iNz-g1-Vba" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="aUi-ND-4lW"/>
                 <constraint firstAttribute="trailing" secondItem="dHZ-HU-I4w" secondAttribute="trailing" constant="20" id="iyM-n5-QQG"/>
                 <constraint firstItem="dHZ-HU-I4w" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="m6c-3k-CMk"/>
-                <constraint firstItem="asK-CZ-eL7" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="pVu-qG-Ksc"/>
-                <constraint firstItem="iNz-g1-Vba" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="80" id="tFF-rw-4RY"/>
+                <constraint firstItem="iNz-g1-Vba" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="30" id="tFF-rw-4RY"/>
                 <constraint firstItem="ipr-8r-hhI" firstAttribute="top" secondItem="TZk-6I-oor" secondAttribute="bottom" constant="20" id="wgz-oi-pqs"/>
             </constraints>
             <size key="customSize" width="369" height="449"/>
@@ -92,7 +87,6 @@
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="Background" width="632" height="1374"/>
         <image name="OnBoarding1" width="1080" height="1080"/>
         <image name="arrow.right" catalog="system" width="128" height="98"/>
     </resources>
