@@ -31,6 +31,7 @@ extension LoginVC {
                 pref.set(userInfo?.name, forKey: "name")
                 pref.set(userInfo?.address, forKey: "address")
                 pref.set(userInfo?.landline, forKey: "landline")
+                pref.set(true, forKey: "flag")
                 print(userInfo?.token as Any)
                 pref.synchronize()
                 Helper.restartApp()

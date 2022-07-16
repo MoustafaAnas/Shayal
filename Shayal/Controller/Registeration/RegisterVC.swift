@@ -46,7 +46,6 @@ final class RegisterVC: UIViewController {
     
     override func viewDidLayoutSubviews() {
         registerBtn.setGradientBackground(colorOne: AppColor.btnGradientColor, colorTwo: AppColor.mainColor)
-        registerBtn.titleLabel?.font = UIFont(name: "Almarai-Bold", size: 15)
         signinBtn.titleLabel?.font = UIFont(name: "Almarai-Bold", size: 12)
     }
     // MARK: - Buttons Actions

@@ -21,13 +21,25 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         // if there is a token go to tabbar else go to onboarding
         guard let checkfortoken = Helper.getApiToken() else {
+            if let flag = Helper.getFlag() {
+            print("flag is: \(flag)")
             guard let windowScene = (scene as? UIWindowScene) else { return }
             window = UIWindow(frame: windowScene.coordinateSpace.bounds)
             window?.windowScene = windowScene
-            window?.rootViewController = OnBoardingVC()
+            window?.rootViewController = LoginVC()
             window?.makeKeyAndVisible()
+            }
+            
+            else {
+                guard let windowScene = (scene as? UIWindowScene) else { return }
+                window = UIWindow(frame: windowScene.coordinateSpace.bounds)
+                window?.windowScene = windowScene
+                window?.rootViewController = OnBoardingVC()
+                window?.makeKeyAndVisible()
+            }
             return
         }
+        
         print("token is: \(checkfortoken)")
         let tabBar = TabbarManager()
         guard let windowScene = (scene as? UIWindowScene) else { return }
@@ -35,7 +47,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.windowScene = windowScene
         window?.rootViewController = tabBar
         window?.makeKeyAndVisible()
-        
         
         guard let _ = (scene as? UIWindowScene) else { return }
     }

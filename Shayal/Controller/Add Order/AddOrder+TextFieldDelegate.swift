@@ -66,7 +66,7 @@ extension AddOrderVC: UITextFieldDelegate {
                 vc.mapTitle = "Get Package From".localized()
                 vc.delegate = self
                 navigationController?.pushViewController(vc, animated: true)
-                view.endEditing(true)
+                vehicleTypeTxtField.becomeFirstResponder()
             
             case deliveryToTextField:
             view.endEditing(true)
