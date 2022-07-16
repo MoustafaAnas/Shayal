@@ -36,13 +36,13 @@
                     <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fSq-qR-Plz">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="699"/>
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="695"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LqZ-Wn-IJO">
-                                    <rect key="frame" x="132" y="20" width="150" height="120"/>
+                                    <rect key="frame" x="152" y="20" width="110" height="110"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ibE-OV-zGT">
-                                            <rect key="frame" x="20" y="5.5" width="110" height="109"/>
+                                            <rect key="frame" x="0.0" y="0.5" width="110" height="109"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="tintColor" red="0.1019607843" green="0.76862745099999996" blue="0.71372549019999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
@@ -56,7 +56,7 @@
                                             </userDefinedRuntimeAttributes>
                                         </imageView>
                                         <button clipsSubviews="YES" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z8r-PB-sjK">
-                                            <rect key="frame" x="113" y="83" width="34" height="34"/>
+                                            <rect key="frame" x="76" y="76" width="34" height="34"/>
                                             <color key="backgroundColor" red="0.98431372549999996" green="0.67450980390000004" blue="0.20784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="34" id="Rrm-DC-1Gv"/>
@@ -79,16 +79,16 @@
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
-                                        <constraint firstAttribute="width" constant="150" id="Kec-ih-qTy"/>
-                                        <constraint firstAttribute="bottom" secondItem="z8r-PB-sjK" secondAttribute="bottom" constant="3" id="Msh-Fg-V2Z"/>
+                                        <constraint firstAttribute="width" constant="110" id="Kec-ih-qTy"/>
+                                        <constraint firstAttribute="bottom" secondItem="z8r-PB-sjK" secondAttribute="bottom" id="Msh-Fg-V2Z"/>
                                         <constraint firstItem="ibE-OV-zGT" firstAttribute="centerY" secondItem="LqZ-Wn-IJO" secondAttribute="centerY" id="cuM-M8-fIv"/>
                                         <constraint firstItem="ibE-OV-zGT" firstAttribute="centerX" secondItem="LqZ-Wn-IJO" secondAttribute="centerX" id="f14-55-aSu"/>
-                                        <constraint firstAttribute="trailing" secondItem="z8r-PB-sjK" secondAttribute="trailing" constant="3" id="tj2-Od-enx"/>
-                                        <constraint firstAttribute="height" constant="120" id="w1a-Kd-ZTW"/>
+                                        <constraint firstAttribute="trailing" secondItem="z8r-PB-sjK" secondAttribute="trailing" id="tj2-Od-enx"/>
+                                        <constraint firstAttribute="height" constant="110" id="w1a-Kd-ZTW"/>
                                     </constraints>
                                 </view>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="UqF-jl-u9R">
-                                    <rect key="frame" x="20" y="160" width="374" height="440"/>
+                                    <rect key="frame" x="20" y="150" width="374" height="440"/>
                                     <subviews>
                                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="y2I-vj-5pi">
                                             <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
@@ -134,7 +134,7 @@
                                             <color key="backgroundColor" red="0.1960784314" green="0.23529411759999999" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <fontDescription key="fontDescription" name="Almarai-Regular" family="Almarai" pointSize="13"/>
-                                            <textInputTraits key="textInputTraits"/>
+                                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                     <real key="value" value="6"/>
@@ -180,7 +180,7 @@
                                     </subviews>
                                 </stackView>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gi5-VN-gEX">
-                                    <rect key="frame" x="77" y="635" width="260" height="40"/>
+                                    <rect key="frame" x="77" y="625" width="260" height="40"/>
                                     <color key="backgroundColor" red="0.1019607843" green="0.76862745099999996" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="40" id="KnT-Py-NLD"/>
@@ -203,7 +203,7 @@
                             </subviews>
                             <color key="backgroundColor" red="0.094117647060000004" green="0.13725490200000001" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
-                                <constraint firstAttribute="bottom" secondItem="Gi5-VN-gEX" secondAttribute="bottom" constant="24" id="4Zr-wQ-ndb"/>
+                                <constraint firstAttribute="bottom" secondItem="Gi5-VN-gEX" secondAttribute="bottom" constant="30" id="4Zr-wQ-ndb"/>
                                 <constraint firstItem="UqF-jl-u9R" firstAttribute="leading" secondItem="fSq-qR-Plz" secondAttribute="leading" constant="20" id="DqE-1f-Jpm"/>
                                 <constraint firstAttribute="trailing" secondItem="UqF-jl-u9R" secondAttribute="trailing" constant="20" id="DrN-qt-wbd"/>
                                 <constraint firstItem="UqF-jl-u9R" firstAttribute="top" secondItem="LqZ-Wn-IJO" secondAttribute="bottom" constant="20" id="FI5-Hv-fmR"/>

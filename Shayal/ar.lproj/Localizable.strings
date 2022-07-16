@@ -212,6 +212,8 @@
 "Delay in receiving orders..." = "التأخر في استلام الطلبات...";
 "Item Is Missing..." = "الحمولة غير كاملة...";
 "Report Text" = "نص الشكوى";
+
+// Add report
 "Please enter your complain, to solve it as fast as possible" = "الرجاء إدخال شكواك لحلها في أسرع وقت ممكن";
 "We recieved your complain, and we will contact you soon with the latest updates" = "استلمنا شكواك وسنتواصل معك قريبًا لإطلاعك على آخر المستجدات";
 

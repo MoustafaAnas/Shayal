@@ -39,7 +39,7 @@ final class AddReportVC: UIViewController {
             FTIndicator.showToastMessage("Please enter your complain, to solve it as fast as possible".localized())
             return
         }
-        FTIndicator.showInfo(withMessage: "We recieved your complain, and we will contact you soon with the latest updates")
+        FTIndicator.showInfo(withMessage: "We recieved your complain, and we will contact you soon with the latest updates".localized())
         self.dismiss(animated: true)
     }
     

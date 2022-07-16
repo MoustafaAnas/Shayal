@@ -33,6 +33,13 @@ final class Helper: NSObject {
         return token
     }
     
+    // MARK: - Flag
+    class func getFlag() -> Bool? {
+        let flag = UserDefaults.standard.object(forKey: "flag") as? Bool
+        
+        return flag
+    }
+    
     // MARK: - ID
     class func getUserID() -> Int {
         let id = UserDefaults.standard.object(forKey: "id") as! Int

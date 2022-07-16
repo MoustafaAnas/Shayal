@@ -33,8 +33,6 @@ final class MyOrdersVC: UIViewController {
         
         setupSegmentControl()
     }
-
-   
 }
 
 
